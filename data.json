@@ -1,28 +1,14 @@
 {
   "colleges": [
-    { "name": "Babson College", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Bucknell University", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Case Western Reserve University", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "College of the Holy Cross", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Dickinson College", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Fairfield University", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Florida State University", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Hofstra University", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Lafayette College", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Penn State University (University Park)", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Princeton University", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Sacred Heart University", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Skidmore College", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Stevens Institute of Technology", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Trinity College", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Tulane University", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Union College", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "University of Delaware", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "University of Florida", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "University of Richmond", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Villanova University", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Worcester Polytechnic Institute", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" },
-    { "name": "Yale University", "deadline": "", "plan": "", "status": "not_started", "portal": "", "baseballContact": "", "notes": "" }
+    {
+      "name": "Test Ping",
+      "deadline": "",
+      "plan": "",
+      "status": "not_started",
+      "portal": "",
+      "baseballContact": "",
+      "notes": "worker-deploy-check"
+    }
   ],
   "contacts": [],
   "baseballNotes": ""
