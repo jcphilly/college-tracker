@@ -144,6 +144,11 @@
 
   .link-chip { font-size: var(--fs-xs); color: var(--accent); text-decoration: none; }
   .link-chip:hover { text-decoration: underline; }
+  .edit-link-btn {
+    background: none; border: none; color: var(--text-dim); font-size: var(--fs-xs); cursor: pointer;
+    margin-left: 4px; padding: 0 2px; text-decoration: underline; text-underline-offset: 2px;
+  }
+  .edit-link-btn:hover { color: var(--accent); }
 
   .staff-block { margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--card-border); }
   .staff-title { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-dim); margin-bottom: 6px; }
@@ -370,38 +375,45 @@ function twitterHref(handle) {
   return `https://x.com/${handle.replace(/^@/, "")}`;
 }
 
+function linkInfoFor(value, linkType) {
+  if (!value) return null;
+  if (linkType === "url" && isUrl(value)) return { href: value, label: urlLabel(value), external: true };
+  if (linkType === "portal" && isUrl(value)) return { href: value, label: value.includes("commonapp") ? "commonapp" : "school app", external: true };
+  if (linkType === "email" && /\S+@\S+\.\S+/.test(value)) return { href: `mailto:${value}`, label: value, external: false };
+  if (linkType === "tel" && /^[\d()+\-.\s]{7,}$/.test(value)) return { href: `tel:${value.replace(/[^\d+]/g, "")}`, label: value, external: false };
+  if (linkType === "twitter") return { href: twitterHref(value), label: value.startsWith("@") ? value : `@${value}`, external: true };
+  return null;
+}
+
 function makeEditable(value, placeholder, onChange, linkType = "url") {
   const editable = isEditable();
+  const link = linkInfoFor(value, linkType);
 
-  if (!editable && value) {
-    if (linkType === "url" && isUrl(value)) {
-      const a = document.createElement("a");
-      a.className = "link-chip"; a.href = value; a.target = "_blank"; a.rel = "noopener";
-      a.textContent = urlLabel(value);
-      return a;
+  if (link) {
+    const wrap = document.createElement("span");
+    const a = document.createElement("a");
+    a.className = "link-chip";
+    a.href = link.href;
+    a.textContent = link.label;
+    if (link.external) { a.target = "_blank"; a.rel = "noopener"; }
+    wrap.appendChild(a);
+    if (editable) {
+      const editBtn = document.createElement("button");
+      editBtn.type = "button";
+      editBtn.className = "edit-link-btn";
+      editBtn.textContent = "edit";
+      editBtn.onclick = e => {
+        e.preventDefault();
+        const next = prompt(`Update ${placeholder || "value"}:`, value);
+        if (next !== null) {
+          onChange(next.trim());
+          queueSave("Update field");
+          renderGrid();
+        }
+      };
+      wrap.appendChild(editBtn);
     }
-    if (linkType === "portal" && isUrl(value)) {
-      const a = document.createElement("a");
-      a.className = "link-chip"; a.href = value; a.target = "_blank"; a.rel = "noopener";
-      a.textContent = value.includes("commonapp") ? "commonapp" : "school app";
-      return a;
-    }
-    if (linkType === "email" && /\S+@\S+\.\S+/.test(value)) {
-      const a = document.createElement("a");
-      a.className = "link-chip"; a.href = `mailto:${value}`; a.textContent = value;
-      return a;
-    }
-    if (linkType === "tel" && /^[\d()+\-.\s]{7,}$/.test(value)) {
-      const a = document.createElement("a");
-      a.className = "link-chip"; a.href = `tel:${value.replace(/[^\d+]/g, "")}`; a.textContent = value;
-      return a;
-    }
-    if (linkType === "twitter") {
-      const a = document.createElement("a");
-      a.className = "link-chip"; a.href = twitterHref(value); a.target = "_blank"; a.rel = "noopener";
-      a.textContent = value.startsWith("@") ? value : `@${value}`;
-      return a;
-    }
+    return wrap;
   }
 
   const span = document.createElement("span");
