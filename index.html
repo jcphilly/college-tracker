@@ -163,6 +163,7 @@
         <th>Status</th>
         <th>Portal</th>
         <th>Baseball Contact</th>
+        <th>Tuition Exchange</th>
         <th>Notes</th>
       </tr>
     </thead>
@@ -184,14 +185,15 @@
   </div>
 
   <footer>
-    Data lives in <code>data.json</code> in the GitHub repo, so every device sees the same thing. Viewing works for anyone with the link; editing requires a GitHub personal access token scoped to this repo (click "Connect to edit").
+    Data lives in <code>data.json</code> in the GitHub repo, so every device sees the same thing. Viewing works for anyone with the link; editing requires the shared edit password (click "Connect to edit").
   </footer>
 </div>
 
 <script>
 const CONFIG = { owner: "jcphilly", repo: "college-tracker", branch: "main", path: "data.json" };
 const API_URL = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${CONFIG.path}`;
-const TOKEN_KEY = "collegeTrackerGhToken";
+const WORKER_URL = "https://college-tracker-proxy.joecamp.workers.dev";
+const PASSWORD_KEY = "collegeTrackerEditPassword";
 
 const STATUS_ORDER = ["not_started", "in_progress", "submitted", "decision", "waitlisted", "denied"];
 const STATUS_LABEL = {
@@ -204,16 +206,12 @@ const STATUS_LABEL = {
 };
 
 let state = { colleges: [], contacts: [], baseballNotes: "" };
-let currentSha = null;
 let activeFilter = "all";
 let saveChain = Promise.resolve();
 
-function getToken() { return localStorage.getItem(TOKEN_KEY) || ""; }
-function isEditable() { return !!getToken(); }
+function getPassword() { return localStorage.getItem(PASSWORD_KEY) || ""; }
+function isEditable() { return !!getPassword(); }
 
-function b64EncodeUnicode(str) {
-  return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, (m, p1) => String.fromCharCode(parseInt(p1, 16))));
-}
 function b64DecodeUnicode(str) {
   return decodeURIComponent(atob(str.replace(/\s/g, "")).split("").map(c => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2)).join(""));
 }
@@ -232,8 +230,6 @@ async function loadData() {
   setSyncStatus("loading", "loading…");
   try {
     const headers = { "Accept": "application/vnd.github+json" };
-    const token = getToken();
-    if (token) headers["Authorization"] = `token ${token}`;
     const res = await fetch(`${API_URL}?ref=${CONFIG.branch}`, { headers, cache: "no-store" });
     if (res.status === 404) {
       setSyncStatus("error", "data.json not found in repo yet");
@@ -244,7 +240,6 @@ async function loadData() {
       return;
     }
     const json = await res.json();
-    currentSha = json.sha;
     const parsed = JSON.parse(b64DecodeUnicode(json.content));
     state = {
       colleges: parsed.colleges || [],
@@ -267,41 +262,26 @@ function queueSave(message) {
 }
 
 async function saveData(message) {
-  const token = getToken();
-  if (!token) return;
+  const password = getPassword();
+  if (!password) return;
   setSyncStatus("loading", "saving…");
-  const body = {
-    message: message || "Update tracker",
-    content: b64EncodeUnicode(JSON.stringify(state, null, 2)),
-    branch: CONFIG.branch
-  };
-  if (currentSha) body.sha = currentSha;
-  const res = await fetch(API_URL, {
-    method: "PUT",
-    headers: {
-      "Accept": "application/vnd.github+json",
-      "Authorization": `token ${token}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(body)
+  const res = await fetch(WORKER_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ password, data: state, message: message || "Update tracker" })
   });
   if (!res.ok) {
     const errBody = await res.json().catch(() => ({}));
-    if (res.status === 409) {
-      setSyncStatus("error", "conflict — reloading latest");
-      await loadData();
+    if (res.status === 401) {
+      setSyncStatus("error", "wrong password");
+      localStorage.removeItem(PASSWORD_KEY);
+      updateAuthBtn();
       renderAll();
-      throw new Error("sha conflict, reloaded latest data — please redo your edit");
-    }
-    if (res.status === 401 || res.status === 403) {
-      setSyncStatus("error", "token rejected");
-      throw new Error(`GitHub auth error: ${errBody.message || res.status}`);
+      throw new Error("incorrect password — disconnected, please reconnect");
     }
     setSyncStatus("error", `save failed (${res.status})`);
-    throw new Error(`GitHub save error: ${errBody.message || res.status}`);
+    throw new Error(`save error: ${errBody.error || res.status}`);
   }
-  const json = await res.json();
-  currentSha = json.content.sha;
   setSyncStatus("ok", "synced");
 }
 
@@ -403,6 +383,10 @@ function renderTable() {
     bbTd.appendChild(makeEditable(row.baseballContact, "coach / status", v => row.baseballContact = v));
     tr.appendChild(bbTd);
 
+    const teTd = document.createElement("td");
+    teTd.appendChild(makeEditable(row.tuitionExchange, "TE link / status", v => row.tuitionExchange = v));
+    tr.appendChild(teTd);
+
     const notesTd = document.createElement("td");
     notesTd.className = "notes-cell";
     notesTd.appendChild(makeEditable(row.notes, "add note", v => row.notes = v));
@@ -444,19 +428,16 @@ bbNotesEl.addEventListener("blur", () => {
 
 document.getElementById("authBtn").onclick = () => {
   if (isEditable()) {
-    if (confirm("Disconnect this device? You'll need to re-enter your token to edit again.")) {
-      localStorage.removeItem(TOKEN_KEY);
+    if (confirm("Disconnect this device? You'll need to re-enter the password to edit again.")) {
+      localStorage.removeItem(PASSWORD_KEY);
       updateAuthBtn();
       renderAll();
     }
     return;
   }
-  const token = prompt(
-    "Paste a GitHub personal access token with Contents read/write access to this repo.\n" +
-    "(Settings → Developer settings → Fine-grained tokens → scope to this repo → Contents: Read and write)"
-  );
-  if (token && token.trim()) {
-    localStorage.setItem(TOKEN_KEY, token.trim());
+  const password = prompt("Enter the edit password:");
+  if (password && password.trim()) {
+    localStorage.setItem(PASSWORD_KEY, password.trim());
     updateAuthBtn();
     renderAll();
   }
