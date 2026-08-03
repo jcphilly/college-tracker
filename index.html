@@ -317,9 +317,40 @@ function renderFilters() {
   });
 }
 
+function isUrl(str) {
+  if (!str) return false;
+  try {
+    const u = new URL(str);
+    return u.protocol === "http:" || u.protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
+function urlLabel(str) {
+  try {
+    return new URL(str).hostname.replace(/^www\./, "");
+  } catch {
+    return str;
+  }
+}
+
 function makeEditable(value, placeholder, onChange) {
-  const span = document.createElement("span");
   const editable = isEditable();
+
+  if (!editable && isUrl(value)) {
+    const wrap = document.createElement("span");
+    const a = document.createElement("a");
+    a.className = "portal-link";
+    a.href = value;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = urlLabel(value);
+    wrap.appendChild(a);
+    return wrap;
+  }
+
+  const span = document.createElement("span");
   span.className = "editable" + (editable ? "" : " locked");
   span.contentEditable = editable ? "true" : "false";
   span.dataset.placeholder = placeholder;
