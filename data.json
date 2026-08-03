@@ -1,13 +1,6 @@
 {
   "colleges": [
     {
-      "name": "Babson College",
-      "deadline": "ED1 Nov 1 · ED2 Jan 2 · EA Nov 1 · RD Jan 2 (unconfirmed for 26-27 — page didn't label a year)",
-      "plan": "RD",
-      "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/babson-college/",
-      "tuitionExchange": "Estimated 61k - 60k",
-      "notes": "",
       "coaches": [
         {
           "name": "Matt Noone",
@@ -38,16 +31,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Bucknell University",
-      "deadline": "ED1 Nov 1, 2026 · ED2 Jan 10, 2027 · RD Jan 10, 2027",
+      "notes": "",
+      "tuitionExchange": "Estimated 61k - 60k",
+      "teamTwitter": null,
+      "name": "Babson College",
+      "deadline": "ED1 Nov 1 · ED2 Jan 2 · EA Nov 1 · RD Jan 2 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/bucknell-university/",
-      "tuitionExchange": "Estimated 56k - 45k",
-      "notes": "",
+      "portal": "https://www.commonapp.org/explore/babson-college/"
+    },
+    {
       "coaches": [
         {
           "name": "Scott Heather",
@@ -78,16 +71,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Case Western Reserve University",
-      "deadline": "ED1 Nov 1 · ED2 Jan 15 · EA Nov 1 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "",
+      "tuitionExchange": "Estimated 56k - 45k",
+      "teamTwitter": null,
+      "name": "Bucknell University",
+      "deadline": "ED1 Nov 1, 2026 · ED2 Jan 10, 2027 · RD Jan 10, 2027",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/case-western-reserve-university/",
-      "tuitionExchange": "Estimated 45k - 45K (Grants may be reduced)",
-      "notes": "",
+      "portal": "https://www.commonapp.org/explore/bucknell-university/"
+    },
+    {
       "coaches": [
         {
           "name": "Matt Englander",
@@ -111,16 +104,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "College of the Holy Cross",
-      "deadline": "ED1 Nov 15 · ED2 Jan 15 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "",
+      "tuitionExchange": "Estimated 45k - 45K (Grants may be reduced)",
+      "teamTwitter": null,
+      "name": "Case Western Reserve University",
+      "deadline": "ED1 Nov 1 · ED2 Jan 15 · EA Nov 1 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/college-holy-cross/",
-      "tuitionExchange": "Estimated 50k - 68k (Grants may be reduced)",
-      "notes": "",
+      "portal": "https://www.commonapp.org/explore/case-western-reserve-university/"
+    },
+    {
       "coaches": [
         {
           "name": "Ed Kahovec",
@@ -151,16 +144,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Dickinson College",
-      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Nov 15 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "",
+      "tuitionExchange": "Estimated 50k - 68k (Grants may be reduced)",
+      "teamTwitter": null,
+      "name": "College of the Holy Cross",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/dickinson-college/",
-      "tuitionExchange": "Estimated 53k - 45k",
-      "notes": "",
+      "portal": "https://www.commonapp.org/explore/college-holy-cross/"
+    },
+    {
       "coaches": [
         {
           "name": "Craig Hanson",
@@ -191,16 +184,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Fairfield University",
-      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Nov 1 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "",
+      "tuitionExchange": "Estimated 53k - 45k",
+      "teamTwitter": null,
+      "name": "Dickinson College",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Nov 15 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/fairfield-university/",
-      "tuitionExchange": "Estimated 55k - 45k (Grants may be reduced)",
-      "notes": "Head Baseball Coach (new — succeeded Bill Currier, who retired after the 2026 season)",
+      "portal": "https://www.commonapp.org/explore/dickinson-college/"
+    },
+    {
       "coaches": [
         {
           "name": "Brian Fay",
@@ -224,16 +217,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
+      "notes": "Head Baseball Coach (new — succeeded Bill Currier, who retired after the 2026 season)",
+      "tuitionExchange": "Estimated 55k - 45k (Grants may be reduced)",
+      "teamTwitter": null,
+      "name": "Fairfield University",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Nov 1 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
+      "plan": "RD",
+      "status": "not_started",
+      "portal": "https://www.commonapp.org/explore/fairfield-university/"
     },
     {
-      "name": "Florida State University",
-      "deadline": "ED1 Oct 15 (new binding ED option added this cycle) · EA Oct 15 (FL residents only) · RD Dec 1",
-      "plan": "EA",
-      "status": "in_progress",
-      "portal": "https://admissions.fsu.edu/undergradapp/first-year",
-      "tuitionExchange": "26k w/ Grandparent waiver",
-      "notes": "",
       "coaches": [
         {
           "name": "Link Jarrett",
@@ -271,16 +264,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
+      "notes": "",
+      "tuitionExchange": "26k w/ Grandparent waiver",
+      "teamTwitter": null,
+      "name": "Florida State University",
+      "deadline": "ED1 Oct 15 (new binding ED option added this cycle) · EA Oct 15 (FL residents only) · RD Dec 1",
+      "plan": "EA",
+      "status": "in_progress",
+      "portal": "https://admissions.fsu.edu/undergradapp/first-year"
     },
     {
-      "name": "Hofstra University",
-      "deadline": "EA Nov 15 (Round I) / Dec 15 (Round II) · RD Rolling, no fixed deadline (unconfirmed for 26-27 — page didn't label a year)",
-      "plan": "RD",
-      "status": "in_progress",
-      "portal": "https://www.commonapp.org/explore/hofstra-university/",
-      "tuitionExchange": "Estimated 50k - 62k Tuition",
-      "notes": "",
       "coaches": [
         {
           "name": "Frank Catalanotto",
@@ -318,16 +311,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": "@hofstrabaseball"
+      "notes": "",
+      "tuitionExchange": "Estimated 50k - 62k Tuition",
+      "teamTwitter": "@hofstrabaseball",
+      "name": "Hofstra University",
+      "deadline": "EA Nov 15 (Round I) / Dec 15 (Round II) · RD Rolling, no fixed deadline (unconfirmed for 26-27 — page didn't label a year)",
+      "plan": "RD",
+      "status": "in_progress",
+      "portal": "https://www.commonapp.org/explore/hofstra-university/"
     },
     {
-      "name": "Lafayette College",
-      "deadline": "ED1 Nov 1 · ED2 Jan 5 · RD Jan 5 (unconfirmed for 26-27 — page didn't label a year)",
-      "plan": "RD",
-      "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/lafayette-college/",
-      "tuitionExchange": "Estimated 55k - 45k",
-      "notes": "",
       "coaches": [
         {
           "name": "A.J. Miller",
@@ -365,16 +358,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
+      "notes": "",
+      "tuitionExchange": "Estimated 55k - 45k",
+      "teamTwitter": null,
+      "name": "Lafayette College",
+      "deadline": "ED1 Nov 1 · ED2 Jan 5 · RD Jan 5 (unconfirmed for 26-27 — page didn't label a year)",
+      "plan": "RD",
+      "status": "not_started",
+      "portal": "https://www.commonapp.org/explore/lafayette-college/"
     },
     {
-      "name": "Penn State University (University Park)",
-      "deadline": "EA Nov 1 · RD Dec 1 (priority filing)",
-      "plan": "EA",
-      "status": "in_progress",
-      "portal": "https://mypennstate.psu.edu/index.cfm/login",
-      "tuitionExchange": "65k",
-      "notes": "",
       "coaches": [
         {
           "name": "Mike Gambino",
@@ -419,16 +412,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
+      "notes": "",
+      "tuitionExchange": "65k",
+      "teamTwitter": null,
+      "name": "Penn State University (University Park)",
+      "deadline": "EA Nov 1 · RD Dec 1 (priority filing)",
+      "plan": "EA",
+      "status": "in_progress",
+      "portal": "https://mypennstate.psu.edu/index.cfm/login"
     },
     {
-      "name": "Princeton University",
-      "deadline": "EA Nov 1 (Single-Choice Early Action) · RD Jan 1",
-      "plan": "SCEA",
-      "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/princeton-university/",
-      "tuitionExchange": "Estimate 27k",
-      "notes": "Head Coach (newly named July 2026 — no personal contact info yet)",
       "coaches": [
         {
           "name": "Ryan Forrest",
@@ -438,16 +431,16 @@
           "twitter": "@CoachForrest14"
         }
       ],
-      "teamTwitter": null
+      "notes": "Head Coach (newly named July 2026 — no personal contact info yet)",
+      "tuitionExchange": "Estimate 27k",
+      "teamTwitter": null,
+      "name": "Princeton University",
+      "deadline": "EA Nov 1 (Single-Choice Early Action) · RD Jan 1",
+      "plan": "SCEA",
+      "status": "not_started",
+      "portal": "https://www.commonapp.org/explore/princeton-university/"
     },
     {
-      "name": "Sacred Heart University",
-      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Dec 1 (Round I) / Feb 1 (Round II) · RD Rolling after Feb 1 (unconfirmed for 26-27 — page didn't label a year)",
-      "plan": "RD",
-      "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/sacred-heart-university/",
-      "tuitionExchange": "Estimated 60k - 54k",
-      "notes": "",
       "coaches": [
         {
           "name": "Pat Egan",
@@ -471,16 +464,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": "@sacredheartbsb"
-    },
-    {
-      "name": "Skidmore College",
-      "deadline": "ED1 Nov 1 · ED2 Jan 8 · RD Jan 8",
+      "notes": "",
+      "tuitionExchange": "Estimated 60k - 54k",
+      "teamTwitter": "@sacredheartbsb",
+      "name": "Sacred Heart University",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Dec 1 (Round I) / Feb 1 (Round II) · RD Rolling after Feb 1 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://apply.commonapp.org/login?ma=246",
-      "tuitionExchange": "Estimated 45k - 45k",
-      "notes": "",
+      "portal": "https://www.commonapp.org/explore/sacred-heart-university/"
+    },
+    {
       "coaches": [
         {
           "name": "Ron Plourde",
@@ -511,16 +504,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Stevens Institute of Technology",
-      "deadline": "ED1 Nov 15 · ED2 Jan 5 · EA Dec 1 · RD Jan 5 (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "",
+      "tuitionExchange": "Estimated 45k - 45k",
+      "teamTwitter": null,
+      "name": "Skidmore College",
+      "deadline": "ED1 Nov 1 · ED2 Jan 8 · RD Jan 8",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://apply.commonapp.org/login?ma=258",
-      "tuitionExchange": "Estimated 62k - 45k",
-      "notes": "",
+      "portal": "https://apply.commonapp.org/login?ma=246"
+    },
+    {
       "coaches": [
         {
           "name": "Kristaps Aldins",
@@ -544,16 +537,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Trinity College",
-      "deadline": "ED1 Nov 15 · ED2 Jan 15 · RD Jan 17 (unverified/conflicting source — confirm with Trinity) (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "",
+      "tuitionExchange": "Estimated 62k - 45k",
+      "teamTwitter": null,
+      "name": "Stevens Institute of Technology",
+      "deadline": "ED1 Nov 15 · ED2 Jan 5 · EA Dec 1 · RD Jan 5 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/trinity-college/",
-      "tuitionExchange": "Estimated 48k - 45k",
-      "notes": "",
+      "portal": "https://apply.commonapp.org/login?ma=258"
+    },
+    {
       "coaches": [
         {
           "name": "Bryan Adamski",
@@ -591,16 +584,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Tulane University",
-      "deadline": "ED1 Nov 1 · ED2 Jan 15 · EA Nov 10 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "",
+      "tuitionExchange": "Estimated 48k - 45k",
+      "teamTwitter": null,
+      "name": "Trinity College",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · RD Jan 17 (unverified/conflicting source — confirm with Trinity) (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/tulane-university/",
-      "tuitionExchange": "Estimated 58k - 45k",
-      "notes": "Head Coach (no email/phone found — verify on official roster)",
+      "portal": "https://www.commonapp.org/explore/trinity-college/"
+    },
+    {
       "coaches": [
         {
           "name": "Jay Uhlman",
@@ -624,16 +617,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Union College",
-      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Possibly Nov 1 — conflicting sources, verify with admissions · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "Head Coach (no email/phone found — verify on official roster)",
+      "tuitionExchange": "Estimated 58k - 45k",
+      "teamTwitter": null,
+      "name": "Tulane University",
+      "deadline": "ED1 Nov 1 · ED2 Jan 15 · EA Nov 10 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://apply.commonapp.org/Login?ma=273",
-      "tuitionExchange": "Estimated 50k - 45k",
-      "notes": "",
+      "portal": "https://www.commonapp.org/explore/tulane-university/"
+    },
+    {
       "coaches": [
         {
           "name": "John Muller",
@@ -650,16 +643,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": "@UnionCollegeBB"
+      "notes": "",
+      "tuitionExchange": "Estimated 50k - 45k",
+      "teamTwitter": "@UnionCollegeBB",
+      "name": "Union College",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Possibly Nov 1 — conflicting sources, verify with admissions · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
+      "plan": "RD",
+      "status": "not_started",
+      "portal": "https://apply.commonapp.org/Login?ma=273"
     },
     {
-      "name": "University of Delaware",
-      "deadline": "EA Nov 1 · RD Jan 15",
-      "plan": "EA",
-      "status": "not_started",
-      "portal": "https://apply.udel.edu/",
-      "tuitionExchange": "Estimated 61k - 47k",
-      "notes": "",
       "coaches": [
         {
           "name": "Greg Mamula",
@@ -690,16 +683,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "University of Florida",
-      "deadline": "ED1 Oct 15 (new binding ED option added this cycle) · EA Nov 1 · RD Jan 15",
+      "notes": "",
+      "tuitionExchange": "Estimated 61k - 47k",
+      "teamTwitter": null,
+      "name": "University of Delaware",
+      "deadline": "EA Nov 1 · RD Jan 15",
       "plan": "EA",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/university-florida/",
-      "tuitionExchange": "26k with Grandparent waiver",
-      "notes": "Head Coach (returned Dec 2025 from a leave of absence — confirm still active before outreach)",
+      "portal": "https://apply.udel.edu/"
+    },
+    {
       "coaches": [
         {
           "name": "Kevin O'Sullivan",
@@ -730,16 +723,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
+      "notes": "Head Coach (returned Dec 2025 from a leave of absence — confirm still active before outreach)",
+      "tuitionExchange": "26k with Grandparent waiver",
+      "teamTwitter": null,
+      "name": "University of Florida",
+      "deadline": "ED1 Oct 15 (new binding ED option added this cycle) · EA Nov 1 · RD Jan 15",
+      "plan": "EA",
+      "status": "not_started",
+      "portal": "https://www.commonapp.org/explore/university-florida/"
     },
     {
-      "name": "University of Richmond",
-      "deadline": "ED1 Nov 1 · ED2 Jan 1 · EA Nov 1 · RD Jan 1 (unconfirmed for 26-27 — page didn't label a year)",
-      "plan": "RD",
-      "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/university-richmond/",
-      "tuitionExchange": "Estimated 45k - 45k",
-      "notes": "",
       "coaches": [
         {
           "name": "Mik Aoki",
@@ -770,16 +763,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Villanova University",
-      "deadline": "ED1 Nov 1 · EA Nov 1 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "",
+      "tuitionExchange": "Estimated 45k - 45k",
+      "teamTwitter": null,
+      "name": "University of Richmond",
+      "deadline": "ED1 Nov 1 · ED2 Jan 1 · EA Nov 1 · RD Jan 1 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/villanova-university/",
-      "tuitionExchange": "Estimated 54k - 45k",
-      "notes": "",
+      "portal": "https://www.commonapp.org/explore/university-richmond/"
+    },
+    {
       "coaches": [
         {
           "name": "Kevin Mulvey",
@@ -810,16 +803,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Worcester Polytechnic Institute",
-      "deadline": "ED1 Nov 1 · ED2 Jan 5 · EA Nov 1 (Round I) / Jan 5 (Round II) · RD Feb 1 (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "",
+      "tuitionExchange": "Estimated 54k - 45k",
+      "teamTwitter": null,
+      "name": "Villanova University",
+      "deadline": "ED1 Nov 1 · EA Nov 1 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/worcester-polytechnic-institute/",
-      "tuitionExchange": "Estimated 55k - 45k",
-      "notes": "",
+      "portal": "https://www.commonapp.org/explore/villanova-university/"
+    },
+    {
       "coaches": [
         {
           "name": "Brendan Casey",
@@ -843,16 +836,16 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
-    },
-    {
-      "name": "Yale University",
-      "deadline": "EA Nov 1 (Single-Choice Early Action) · RD Jan 2 (unconfirmed for 26-27 — page didn't label a year)",
+      "notes": "",
+      "tuitionExchange": "Estimated 55k - 45k",
+      "teamTwitter": null,
+      "name": "Worcester Polytechnic Institute",
+      "deadline": "ED1 Nov 1 · ED2 Jan 5 · EA Nov 1 (Round I) / Jan 5 (Round II) · RD Feb 1 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "RD",
       "status": "not_started",
-      "portal": "https://www.commonapp.org/explore/yale-university/",
-      "tuitionExchange": "Estimated 43k",
-      "notes": "",
+      "portal": "https://www.commonapp.org/explore/worcester-polytechnic-institute/"
+    },
+    {
       "coaches": [
         {
           "name": "Brian Hamm",
@@ -890,7 +883,14 @@
           "twitter": null
         }
       ],
-      "teamTwitter": null
+      "notes": "",
+      "tuitionExchange": "Estimated 43k",
+      "teamTwitter": null,
+      "name": "Yale University",
+      "deadline": "EA Nov 1 (Single-Choice Early Action) · RD Jan 2 (unconfirmed for 26-27 — page didn't label a year)",
+      "plan": "RD",
+      "status": "not_started",
+      "portal": "https://www.commonapp.org/explore/yale-university/"
     }
   ],
   "baseballNotes": "Research notes (Aug 2026): most deadlines below are current-page dates but only 7 of 23 schools' pages explicitly confirmed \"2026-27\"/\"Fall 2027\" — double check the ones flagged \"unconfirmed\" before treating as final. Coach emails for Bucknell, FSU, Sacred Heart, UD, and Richmond came from search-index results, not a direct page fetch — verify before emailing. Tulane's coach has no email/phone listed publicly. Fairfield has a new head coach (Brian Fay, replacing retired Bill Currier). FSU and UF both added a new binding Early Decision option this cycle (Oct 15) — verify details directly with admissions. Princeton's coach (Ryan Forrest) was just named in July 2026, so only the program office contact is available yet."
