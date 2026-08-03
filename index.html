@@ -114,10 +114,10 @@
   #searchInput:focus { border-color: var(--accent); }
 
   .college-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-bottom: 32px; }
-  .college-card { background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 16px; }
-  .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
+  .college-card { background: var(--card); border: 1px solid var(--card-border); border-radius: 10px; padding: 12px; }
+  .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 6px; }
   .college-name { font-weight: 600; font-size: var(--fs-md); }
-  .field-row { display: flex; gap: 6px; font-size: var(--fs-sm); margin-bottom: 6px; color: var(--text-dim); flex-wrap: wrap; }
+  .field-row { display: flex; gap: 6px; font-size: var(--fs-sm); margin-bottom: 3px; color: var(--text-dim); flex-wrap: wrap; }
   .field-row .field-label { color: var(--text-dim); white-space: nowrap; }
   .field-row .field-value { color: var(--text); flex: 1; min-width: 80px; }
 
@@ -145,9 +145,9 @@
   .link-chip { font-size: var(--fs-xs); color: var(--accent); text-decoration: none; }
   .link-chip:hover { text-decoration: underline; }
 
-  .staff-block { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--card-border); }
+  .staff-block { margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--card-border); }
   .staff-title { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-dim); margin-bottom: 6px; }
-  .coach-row { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-size: var(--fs-sm); padding: 4px 0; }
+  .coach-row { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px; font-size: var(--fs-sm); padding: 2px 0; }
   .coach-row .coach-name { font-weight: 500; }
   .coach-row .coach-role { color: var(--text-dim); font-size: var(--fs-xs); }
   .remove-coach-btn {
@@ -313,7 +313,7 @@ async function loadData() {
     const json = await res.json();
     const parsed = JSON.parse(b64DecodeUnicode(json.content));
     state = {
-      colleges: (parsed.colleges || []).map(c => ({ coaches: [], notes: "", tuitionExchange: "", teamTwitter: "", ...c })),
+      colleges: (parsed.colleges || []).map(c => ({ coaches: [], notes: "", estimatedCost: "", teamTwitter: "", ...c })),
       baseballNotes: parsed.baseballNotes || ""
     };
     setSyncStatus("ok", "synced");
@@ -460,6 +460,11 @@ function fieldRow(label, valueEl) {
   return row;
 }
 
+function appendFieldIfPresent(card, label, value, placeholder, onChange, linkType, editable) {
+  if (!editable && !value) return;
+  card.appendChild(fieldRow(label, makeEditable(value, placeholder, onChange, linkType)));
+}
+
 function renderCoachRow(college, coach, idx, editable) {
   const row = document.createElement("div");
   row.className = "coach-row";
@@ -515,15 +520,16 @@ function renderCard(college, editable) {
   head.appendChild(badge);
   card.appendChild(head);
 
-  card.appendChild(fieldRow("Deadline", makeEditable(college.deadline, "TBD", v => college.deadline = v, "none")));
-  card.appendChild(fieldRow("Plan", makeEditable(college.plan, "ED/EA/RD", v => college.plan = v, "none")));
-  card.appendChild(fieldRow("Portal", makeEditable(college.portal, "add link", v => college.portal = v, "url")));
-  card.appendChild(fieldRow("Tuition Exchange", makeEditable(college.tuitionExchange, "add info", v => college.tuitionExchange = v, "url")));
+  appendFieldIfPresent(card, "Plan / Deadline", college.deadline, "e.g. RD — Jan 15", v => college.deadline = v, "none", editable);
+  appendFieldIfPresent(card, "Portal", college.portal, "add link", v => college.portal = v, "url", editable);
+  appendFieldIfPresent(card, "Estimated Cost", college.estimatedCost, "add estimate", v => college.estimatedCost = v, "url", editable);
 
-  const notesRow = document.createElement("div");
-  notesRow.className = "notes-row";
-  notesRow.appendChild(makeEditable(college.notes, "add note", v => college.notes = v, "none"));
-  card.appendChild(notesRow);
+  if (editable || college.notes) {
+    const notesRow = document.createElement("div");
+    notesRow.className = "notes-row";
+    notesRow.appendChild(makeEditable(college.notes, "add note", v => college.notes = v, "none"));
+    card.appendChild(notesRow);
+  }
 
   const staffBlock = document.createElement("div");
   staffBlock.className = "staff-block";
