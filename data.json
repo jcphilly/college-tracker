@@ -2,212 +2,397 @@
   "colleges": [
     {
       "name": "Babson College",
-      "deadline": "",
+      "deadline": "ED1 Nov 1 · ED2 Jan 2 · EA Nov 1 · RD Jan 2 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/babson-college/",
+      "baseballContact": "Matt Noone · mnoone@babson.edu · (781) 239-5823",
+      "notes": "Head Coach",
+      "tuitionExchange": "Participates in TE — no dedicated page (Confirmed via official TE list, no dedicated page; contact sfs@babson.edu / 781-239-4219)"
     },
     {
       "name": "Bucknell University",
-      "deadline": "",
+      "deadline": "ED1 Nov 1, 2026 · ED2 Jan 10, 2027 · RD Jan 10, 2027",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/bucknell-university/",
+      "baseballContact": "Scott Heather · sheather@bucknell.edu · 570-577-3593 (baseball office)",
+      "notes": "Head Baseball Coach",
+      "tuitionExchange": "https://www.bucknell.edu/admissions/tuition-and-financial-aid/tuition-exchange-program"
     },
     {
       "name": "Case Western Reserve University",
-      "deadline": "",
+      "deadline": "ED1 Nov 1 · ED2 Jan 15 · EA Nov 1 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/case-western-reserve-university/",
+      "baseballContact": "Matt Englander · matthew.englander@case.edu · 216-368-5379",
+      "notes": "Head Coach",
+      "tuitionExchange": "https://case.edu/financialaid/undergraduates/tuition-exchange-program"
     },
     {
       "name": "College of the Holy Cross",
-      "deadline": "",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/college-holy-cross/",
+      "baseballContact": "Ed Kahovec · ekahovec@holycross.edu · 508-793-2753",
+      "notes": "Head Coach",
+      "tuitionExchange": "https://www.holycross.edu/admissions-aid/tuition-financial-aid/financial-aid/tuition-exchange"
     },
     {
       "name": "Dickinson College",
-      "deadline": "",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Nov 15 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/dickinson-college/",
+      "baseballContact": "Craig Hanson · hansonc@dickinson.edu · 717-245-1982",
+      "notes": "Head Baseball Coach",
+      "tuitionExchange": "https://www.dickinson.edu/info/20083/human_resource_services/480/tuition_programs/3"
     },
     {
       "name": "Fairfield University",
-      "deadline": "",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Nov 1 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/fairfield-university/",
+      "baseballContact": "Brian Fay · bfay@fairfield.edu · 203-254-4000 ext. 3178",
+      "notes": "Head Baseball Coach (new — succeeded Bill Currier, who retired after the 2026 season)",
+      "tuitionExchange": "Participates in TE — no dedicated page (Confirmed via official TE list, no dedicated page; contact finaid@fairfield.edu / 203-254-4125)"
     },
     {
       "name": "Florida State University",
-      "deadline": "",
+      "deadline": "ED1 Oct 15 (new binding ED option added this cycle) · EA Oct 15 (FL residents only) · RD Dec 1",
       "plan": "",
       "status": "not_started",
-      "portal": "https://apply.fsu.edu/apply/status",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://admissions.fsu.edu/undergradapp/first-year",
+      "baseballContact": "Link Jarrett · coachjarrett@fsu.edu · 850-644-1073 (email via search index, not direct fetch — verify)",
+      "notes": "Head Coach",
+      "tuitionExchange": "Not a TE member"
     },
     {
       "name": "Hofstra University",
-      "deadline": "",
+      "deadline": "EA Nov 15 (Round I) / Dec 15 (Round II) · RD Rolling, no fixed deadline (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/hofstra-university/",
+      "baseballContact": "Frank Catalanotto · frank.j.catalanotto@hofstra.edu · (516) 463-3759",
+      "notes": "Head Coach",
+      "tuitionExchange": "https://www.hofstra.edu/human-resources/employee-benefits/tuition.html"
     },
     {
       "name": "Lafayette College",
-      "deadline": "",
+      "deadline": "ED1 Nov 1 · ED2 Jan 5 · RD Jan 5 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/lafayette-college/",
+      "baseballContact": "A.J. Miller · millera@lafayette.edu · 610-330-5945",
+      "notes": "Head Coach",
+      "tuitionExchange": "https://hr.lafayette.edu/benefits/tuition/"
     },
     {
       "name": "Penn State University (University Park)",
-      "deadline": "",
+      "deadline": "EA Nov 1 · RD Dec 1 (priority filing)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://mypennstate.psu.edu/index.cfm/login",
+      "baseballContact": "Mike Gambino · baseball@psu.edu",
+      "notes": "Head Coach",
+      "tuitionExchange": "Not a TE member"
     },
     {
       "name": "Princeton University",
-      "deadline": "",
+      "deadline": "EA Nov 1 (Single-Choice Early Action) · RD Jan 1",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/princeton-university/",
+      "baseballContact": "Ryan Forrest · tigerbaseball@princeton.edu · 609-258-5059 (program office)",
+      "notes": "Head Coach (newly named July 2026 — no personal contact info yet)",
+      "tuitionExchange": "Not a TE member"
     },
     {
       "name": "Sacred Heart University",
-      "deadline": "",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Dec 1 (Round I) / Feb 1 (Round II) · RD Rolling after Feb 1 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/sacred-heart-university/",
+      "baseballContact": "Pat Egan · eganp3@sacredheart.edu (email via search index, not direct fetch — verify)",
+      "notes": "Head Coach",
+      "tuitionExchange": "Participates in TE — no dedicated page (Confirmed via official TE list, no dedicated page; contact sfa@sacredheart.edu / 203-371-7980)"
     },
     {
       "name": "Skidmore College",
-      "deadline": "",
+      "deadline": "ED1 Nov 1 · ED2 Jan 8 · RD Jan 8",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://apply.commonapp.org/login?ma=246",
+      "baseballContact": "Ron Plourde · rplourde@skidmore.edu · (518) 580-5380",
+      "notes": "Head Baseball Coach",
+      "tuitionExchange": "https://www.skidmore.edu/benefits/summary/tuition/tuition-exchange-program.php"
     },
     {
       "name": "Stevens Institute of Technology",
-      "deadline": "",
+      "deadline": "ED1 Nov 15 · ED2 Jan 5 · EA Dec 1 · RD Jan 5 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://apply.commonapp.org/login?ma=258",
+      "baseballContact": "Kristaps Aldins · kaldins@stevens.edu · 201-216-8033",
+      "notes": "Head Coach",
+      "tuitionExchange": "https://www.stevens.edu/page-chapter/tuition-assistance-programs"
     },
     {
       "name": "Trinity College",
-      "deadline": "",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · RD Jan 17 (unverified/conflicting source — confirm with Trinity) (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/trinity-college/",
+      "baseballContact": "Bryan Adamski · bryan.adamski@trincoll.edu · 860-297-2066",
+      "notes": "Head Baseball Coach",
+      "tuitionExchange": "https://www.trincoll.edu/admissions/finaid/first-year-students/important-policies/"
     },
     {
       "name": "Tulane University",
-      "deadline": "",
+      "deadline": "ED1 Nov 1 · ED2 Jan 15 · EA Nov 10 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/tulane-university/",
+      "baseballContact": "Jay Uhlman · no email found",
+      "notes": "Head Coach (no email/phone found — verify on official roster)",
+      "tuitionExchange": "https://financialaid.tulane.edu/types-of-aid/gifts/undergraduate/tuition-exchange-scholarship"
     },
     {
       "name": "Union College",
-      "deadline": "",
+      "deadline": "ED1 Nov 15 · ED2 Jan 15 · EA Possibly Nov 1 — conflicting sources, verify with admissions · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://apply.commonapp.org/Login?ma=273",
+      "baseballContact": "John Muller · baseball@union.edu · 518-388-8025",
+      "notes": "Head Baseball Coach",
+      "tuitionExchange": "https://www.union.edu/human-resources/benefits/tuition-benefits/tuition-exchange-program-union-college-export-policy"
     },
     {
       "name": "University of Delaware",
-      "deadline": "",
+      "deadline": "EA Nov 1 · RD Jan 15",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://apply.udel.edu/",
+      "baseballContact": "Greg Mamula · mamula@udel.edu (email via search index, not direct fetch — verify)",
+      "notes": "Head Coach",
+      "tuitionExchange": "https://www.udel.edu/faculty-staff/human-resources/total-rewards/tuition-benefits/tuition-exchange/"
     },
     {
       "name": "University of Florida",
-      "deadline": "",
+      "deadline": "ED1 Oct 15 (new binding ED option added this cycle) · EA Nov 1 · RD Jan 15",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/university-florida/",
+      "baseballContact": "Kevin O'Sullivan · baseballmail@gators.ufl.edu",
+      "notes": "Head Coach (returned Dec 2025 from a leave of absence — confirm still active before outreach)",
+      "tuitionExchange": "https://aa.ufl.edu/resources/tuition-exchange-program/overview-for-uf-employees/"
     },
     {
       "name": "University of Richmond",
-      "deadline": "",
+      "deadline": "ED1 Nov 1 · ED2 Jan 1 · EA Nov 1 · RD Jan 1 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/university-richmond/",
+      "baseballContact": "Mik Aoki · mik.aoki@richmond.edu (email via search index, not direct fetch — verify)",
+      "notes": "Head Coach",
+      "tuitionExchange": "https://hr.richmond.edu/benefits/education/exchange/index.html"
     },
     {
       "name": "Villanova University",
-      "deadline": "",
+      "deadline": "ED1 Nov 1 · EA Nov 1 · RD Jan 15 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/villanova-university/",
+      "baseballContact": "Kevin Mulvey · villanovabaseball@villanova.edu · ext. 4529",
+      "notes": "Head Coach",
+      "tuitionExchange": "https://www1.villanova.edu/university/office-of-financial-assistance/scholarship-and-grants/tuition-exchange.html"
     },
     {
       "name": "Worcester Polytechnic Institute",
-      "deadline": "",
+      "deadline": "ED1 Nov 1 · ED2 Jan 5 · EA Nov 1 (Round I) / Jan 5 (Round II) · RD Feb 1 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/worcester-polytechnic-institute/",
+      "baseballContact": "Brendan Casey · bcasey@wpi.edu · 508-831-5430",
+      "notes": "Head Coach",
+      "tuitionExchange": "https://www.wpi.edu/news/announcements/tuition-exchange-information-academic-year-20252026"
     },
     {
       "name": "Yale University",
-      "deadline": "",
+      "deadline": "EA Nov 1 (Single-Choice Early Action) · RD Jan 2 (unconfirmed for 26-27 — page didn't label a year)",
       "plan": "",
       "status": "not_started",
-      "portal": "",
-      "baseballContact": "",
-      "notes": ""
+      "portal": "https://www.commonapp.org/explore/yale-university/",
+      "baseballContact": "Brian Hamm · brian.hamm@yale.edu",
+      "notes": "Fay Vincent '31 Head Coach of Baseball",
+      "tuitionExchange": "Not a TE member"
     }
   ],
-  "contacts": [],
-  "baseballNotes": ""
+  "contacts": [
+    {
+      "school": "Babson College",
+      "coach": "Matt Noone",
+      "contact": "mnoone@babson.edu / (781) 239-5823",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Bucknell University",
+      "coach": "Scott Heather",
+      "contact": "sheather@bucknell.edu / 570-577-3593 (baseball office)",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Case Western Reserve University",
+      "coach": "Matt Englander",
+      "contact": "matthew.englander@case.edu / 216-368-5379",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "College of the Holy Cross",
+      "coach": "Ed Kahovec",
+      "contact": "ekahovec@holycross.edu / 508-793-2753",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Dickinson College",
+      "coach": "Craig Hanson",
+      "contact": "hansonc@dickinson.edu / 717-245-1982",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Fairfield University",
+      "coach": "Brian Fay",
+      "contact": "bfay@fairfield.edu / 203-254-4000 ext. 3178",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Florida State University",
+      "coach": "Link Jarrett",
+      "contact": "coachjarrett@fsu.edu / 850-644-1073",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Hofstra University",
+      "coach": "Frank Catalanotto",
+      "contact": "frank.j.catalanotto@hofstra.edu / (516) 463-3759",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Lafayette College",
+      "coach": "A.J. Miller",
+      "contact": "millera@lafayette.edu / 610-330-5945",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Penn State University (University Park)",
+      "coach": "Mike Gambino",
+      "contact": "baseball@psu.edu",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Princeton University",
+      "coach": "Ryan Forrest",
+      "contact": "tigerbaseball@princeton.edu / 609-258-5059 (program office)",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Sacred Heart University",
+      "coach": "Pat Egan",
+      "contact": "eganp3@sacredheart.edu",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Skidmore College",
+      "coach": "Ron Plourde",
+      "contact": "rplourde@skidmore.edu / (518) 580-5380",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Stevens Institute of Technology",
+      "coach": "Kristaps Aldins",
+      "contact": "kaldins@stevens.edu / 201-216-8033",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Trinity College",
+      "coach": "Bryan Adamski",
+      "contact": "bryan.adamski@trincoll.edu / 860-297-2066",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Tulane University",
+      "coach": "Jay Uhlman",
+      "contact": "not found",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Union College",
+      "coach": "John Muller",
+      "contact": "baseball@union.edu / 518-388-8025",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "University of Delaware",
+      "coach": "Greg Mamula",
+      "contact": "mamula@udel.edu",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "University of Florida",
+      "coach": "Kevin O'Sullivan",
+      "contact": "baseballmail@gators.ufl.edu",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "University of Richmond",
+      "coach": "Mik Aoki",
+      "contact": "mik.aoki@richmond.edu",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Villanova University",
+      "coach": "Kevin Mulvey",
+      "contact": "villanovabaseball@villanova.edu / ext. 4529",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Worcester Polytechnic Institute",
+      "coach": "Brendan Casey",
+      "contact": "bcasey@wpi.edu / 508-831-5430",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    },
+    {
+      "school": "Yale University",
+      "coach": "Brian Hamm",
+      "contact": "brian.hamm@yale.edu",
+      "lastContact": "",
+      "status": "Not yet contacted"
+    }
+  ],
+  "baseballNotes": "Research notes (Aug 2026): most deadlines below are current-page dates but only 7 of 23 schools' pages explicitly confirmed \"2026-27\"/\"Fall 2027\" — double check the ones flagged \"unconfirmed\" before treating as final. Coach emails for Bucknell, FSU, Sacred Heart, UD, and Richmond came from search-index results, not a direct page fetch — verify before emailing. Tulane's coach has no email/phone listed publicly. Fairfield has a new head coach (Brian Fay, replacing retired Bill Currier). FSU and UF both added a new binding Early Decision option this cycle (Oct 15) — verify details directly with admissions. Princeton's coach (Ryan Forrest) was just named in July 2026, so only the program office contact is available yet."
 }
