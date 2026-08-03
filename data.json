@@ -64,7 +64,7 @@
       "name": "Florida State University",
       "deadline": "ED1 Oct 15 (new binding ED option added this cycle) · EA Oct 15 (FL residents only) · RD Dec 1",
       "plan": "EA",
-      "status": "not_started",
+      "status": "in_progress",
       "portal": "https://admissions.fsu.edu/undergradapp/first-year",
       "baseballContact": "Link Jarrett · coachjarrett@fsu.edu · 850-644-1073 (email via search index, not direct fetch — verify)",
       "notes": "Head Coach",
@@ -392,6 +392,13 @@
       "contact": "brian.hamm@yale.edu",
       "lastContact": "",
       "status": "Not yet contacted"
+    },
+    {
+      "school": "",
+      "coach": "",
+      "contact": "",
+      "lastContact": "",
+      "status": ""
     }
   ],
   "baseballNotes": "Research notes (Aug 2026): most deadlines below are current-page dates but only 7 of 23 schools' pages explicitly confirmed \"2026-27\"/\"Fall 2027\" — double check the ones flagged \"unconfirmed\" before treating as final. Coach emails for Bucknell, FSU, Sacred Heart, UD, and Richmond came from search-index results, not a direct page fetch — verify before emailing. Tulane's coach has no email/phone listed publicly. Fairfield has a new head coach (Brian Fay, replacing retired Bill Currier). FSU and UF both added a new binding Early Decision option this cycle (Oct 15) — verify details directly with admissions. Princeton's coach (Ryan Forrest) was just named in July 2026, so only the program office contact is available yet."
