@@ -380,6 +380,12 @@ function makeEditable(value, placeholder, onChange, linkType = "url") {
       a.textContent = urlLabel(value);
       return a;
     }
+    if (linkType === "portal" && isUrl(value)) {
+      const a = document.createElement("a");
+      a.className = "link-chip"; a.href = value; a.target = "_blank"; a.rel = "noopener";
+      a.textContent = value.includes("commonapp") ? "commonapp" : "school app";
+      return a;
+    }
     if (linkType === "email" && /\S+@\S+\.\S+/.test(value)) {
       const a = document.createElement("a");
       a.className = "link-chip"; a.href = `mailto:${value}`; a.textContent = value;
@@ -521,7 +527,7 @@ function renderCard(college, editable) {
   card.appendChild(head);
 
   appendFieldIfPresent(card, "Plan / Deadline", college.deadline, "e.g. RD — Jan 15", v => college.deadline = v, "none", editable);
-  appendFieldIfPresent(card, "Portal", college.portal, "add link", v => college.portal = v, "url", editable);
+  appendFieldIfPresent(card, "Portal", college.portal, "add link", v => college.portal = v, "portal", editable);
   appendFieldIfPresent(card, "Estimated Cost", college.estimatedCost, "add estimate", v => college.estimatedCost = v, "url", editable);
 
   if (editable || college.notes) {
