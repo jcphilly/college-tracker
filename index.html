@@ -50,6 +50,21 @@
     --text: #1b1e27; --text-dim: #5c6270; --accent: #2563eb;
     --submitted: #2563eb; --decision: #16a34a;
   }
+  :root[data-mode="light"][data-theme="warm"] {
+    --bg: #f7f5ef; --card: #ffffff; --card-border: #e8e0cf;
+    --text: #2a2417; --text-dim: #6b6152; --accent: #a3792f;
+    --submitted: #2f6fb0; --decision: #3f8f5f;
+  }
+  :root[data-mode="light"][data-theme="crimson"] {
+    --bg: #fbf4f4; --card: #ffffff; --card-border: #ecdcdc;
+    --text: #2a1618; --text-dim: #7a615f; --accent: #9c2f3d;
+    --submitted: #b0303f; --decision: #4f7d3a;
+  }
+  :root[data-mode="light"][data-theme="ocean"] {
+    --bg: #f2f8f8; --card: #ffffff; --card-border: #d7e6e6;
+    --text: #122223; --text-dim: #5c7376; --accent: #157b6e;
+    --submitted: #1f9e8e; --decision: #4f9e4f;
+  }
 
   * { box-sizing: border-box; }
   html { font-size: clamp(14.5px, 0.6vw + 13px, 16px); }
@@ -60,7 +75,7 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     padding: clamp(14px, 3vw, 24px) clamp(10px, 3vw, 16px) 80px;
   }
-  .wrap { max-width: 1200px; margin: 0 auto; }
+  .wrap { max-width: 1800px; margin: 0 auto; }
   h1 { font-size: var(--fs-xl); margin: 0 0 4px; }
   .sub { color: var(--text-dim); font-size: var(--fs-sm); margin-bottom: 16px; }
 
@@ -98,7 +113,7 @@
   }
   #searchInput:focus { border-color: var(--accent); }
 
-  .college-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; margin-bottom: 32px; }
+  .college-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-bottom: 32px; }
   .college-card { background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 16px; }
   .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
   .college-name { font-weight: 600; font-size: var(--fs-md); }
