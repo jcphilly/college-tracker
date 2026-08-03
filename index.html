@@ -22,6 +22,12 @@
     --warn: #d97706;
     --error: #dc2626;
     --ok: #16a34a;
+
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.85rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.15rem;
+    --fs-xl: 1.6rem;
   }
   @media (prefers-color-scheme: light) {
     :root {
@@ -32,6 +38,38 @@
       --text-dim: #5c6270;
     }
   }
+
+  :root[data-theme="warm"] {
+    --bg: #12182a;
+    --card: #182036;
+    --card-border: #2b3550;
+    --text: #e8eaf0;
+    --text-dim: #9aa3bd;
+    --accent: #d3a24a;
+    --submitted: #2f6fb0;
+    --decision: #3f8f5f;
+  }
+  :root[data-theme="crimson"] {
+    --bg: #161213;
+    --card: #201a1b;
+    --card-border: #3a2d2e;
+    --text: #ece7e7;
+    --text-dim: #a39a97;
+    --accent: #d9707c;
+    --submitted: #b0303f;
+    --decision: #4f7d3a;
+  }
+  :root[data-theme="ocean"] {
+    --bg: #0d1517;
+    --card: #122023;
+    --card-border: #24363a;
+    --text: #e5eeee;
+    --text-dim: #8fa3a6;
+    --accent: #4fc3b0;
+    --submitted: #1f9e8e;
+    --decision: #4f9e4f;
+  }
+
   * { box-sizing: border-box; }
   body {
     margin: 0;
@@ -41,17 +79,17 @@
     padding: 24px 16px 80px;
   }
   .wrap { max-width: 1100px; margin: 0 auto; }
-  h1 { font-size: 1.6rem; margin: 0 0 4px; }
-  .sub { color: var(--text-dim); font-size: 0.9rem; margin-bottom: 16px; }
+  h1 { font-size: var(--fs-xl); margin: 0 0 4px; }
+  .sub { color: var(--text-dim); font-size: var(--fs-sm); margin-bottom: 16px; }
 
   .top-bar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
-  .sync-status { font-size: 0.8rem; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--card-border); background: var(--card); color: var(--text-dim); }
+  .sync-status { font-size: var(--fs-xs); padding: 6px 12px; border-radius: 999px; border: 1px solid var(--card-border); background: var(--card); color: var(--text-dim); }
   .sync-status.loading { color: var(--warn); border-color: var(--warn); }
   .sync-status.error { color: var(--error); border-color: var(--error); }
   .sync-status.ok { color: var(--ok); border-color: var(--ok); }
   .auth-btn {
     background: var(--card); color: var(--text); border: 1px solid var(--card-border); border-radius: 8px;
-    padding: 7px 14px; font-size: 0.82rem; cursor: pointer;
+    padding: 7px 14px; font-size: var(--fs-sm); cursor: pointer;
   }
   .auth-btn:hover { border-color: var(--accent); }
 
@@ -62,25 +100,25 @@
     padding: 16px 20px;
     margin-bottom: 20px;
   }
-  .progress-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; font-size: 0.9rem; color: var(--text-dim); }
+  .progress-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; font-size: var(--fs-sm); color: var(--text-dim); }
   .progress-bar-track { height: 10px; background: var(--card-border); border-radius: 6px; overflow: hidden; }
   .progress-bar-fill { height: 100%; background: var(--accent); border-radius: 6px; transition: width 0.3s; }
   .stat-chips { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
-  .chip { font-size: 0.78rem; padding: 4px 10px; border-radius: 999px; background: var(--bg); border: 1px solid var(--card-border); color: var(--text-dim); }
+  .chip { font-size: var(--fs-xs); padding: 4px 10px; border-radius: 999px; background: var(--bg); border: 1px solid var(--card-border); color: var(--text-dim); }
 
   .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
   .filter-btn {
     background: var(--card); color: var(--text-dim); border: 1px solid var(--card-border);
-    border-radius: 999px; padding: 6px 14px; font-size: 0.82rem; cursor: pointer;
+    border-radius: 999px; padding: 6px 14px; font-size: var(--fs-sm); cursor: pointer;
   }
   .filter-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
 
   table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; overflow: hidden; }
   thead th {
-    text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em;
+    text-align: left; font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: 0.04em;
     color: var(--text-dim); padding: 10px 12px; border-bottom: 1px solid var(--card-border);
   }
-  tbody td { padding: 10px 12px; border-bottom: 1px solid var(--card-border); font-size: 0.88rem; vertical-align: top; }
+  tbody td { padding: 10px 12px; border-bottom: 1px solid var(--card-border); font-size: var(--fs-sm); vertical-align: top; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr:hover { background: rgba(91,141,239,0.04); }
   .college-name { font-weight: 600; }
@@ -94,7 +132,7 @@
   .editable.locked:hover { background: none; }
 
   .status-badge {
-    display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 0.78rem; font-weight: 600;
+    display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: var(--fs-xs); font-weight: 600;
     cursor: pointer; color: white; white-space: nowrap; user-select: none;
   }
   .status-badge.locked { cursor: default; opacity: 0.85; }
@@ -106,28 +144,28 @@
   .status-denied { background: var(--denied); }
 
   .notes-cell { max-width: 220px; color: var(--text-dim); }
-  .portal-link { font-size: 0.8rem; color: var(--accent); text-decoration: none; }
+  .portal-link { font-size: var(--fs-xs); color: var(--accent); text-decoration: none; }
   .portal-link:hover { text-decoration: underline; }
 
-  .section-title { font-size: 1.15rem; margin: 32px 0 12px; }
+  .section-title { font-size: var(--fs-lg); margin: 32px 0 12px; }
   .baseball-card {
     background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px 20px;
   }
   .baseball-card textarea {
     width: 100%; min-height: 160px; background: var(--bg); color: var(--text); border: 1px solid var(--card-border);
-    border-radius: 8px; padding: 12px; font-family: inherit; font-size: 0.9rem; resize: vertical;
+    border-radius: 8px; padding: 12px; font-family: inherit; font-size: var(--fs-sm); resize: vertical;
   }
   .contacts-table { width: 100%; border-collapse: collapse; margin-bottom: 16px; }
-  .contacts-table th { text-align: left; font-size: 0.72rem; text-transform: uppercase; color: var(--text-dim); padding: 6px 8px; border-bottom: 1px solid var(--card-border); }
-  .contacts-table td { padding: 6px 8px; border-bottom: 1px solid var(--card-border); font-size: 0.86rem; }
+  .contacts-table th { text-align: left; font-size: var(--fs-xs); text-transform: uppercase; color: var(--text-dim); padding: 6px 8px; border-bottom: 1px solid var(--card-border); }
+  .contacts-table td { padding: 6px 8px; border-bottom: 1px solid var(--card-border); font-size: var(--fs-sm); }
   .add-row-btn {
     background: none; border: 1px dashed var(--card-border); color: var(--text-dim); border-radius: 8px;
-    padding: 6px 12px; font-size: 0.8rem; cursor: pointer; margin-top: 8px;
+    padding: 6px 12px; font-size: var(--fs-xs); cursor: pointer; margin-top: 8px;
   }
   .add-row-btn:hover { border-color: var(--accent); color: var(--accent); }
   .add-row-btn:disabled { opacity: 0.4; cursor: default; }
 
-  footer { margin-top: 40px; color: var(--text-dim); font-size: 0.78rem; text-align: center; }
+  footer { margin-top: 40px; color: var(--text-dim); font-size: var(--fs-xs); text-align: center; }
 </style>
 </head>
 <body>
@@ -139,6 +177,7 @@
     </div>
     <div style="display:flex; align-items:center; gap:8px;">
       <span class="sync-status" id="syncStatus">loading…</span>
+      <button class="auth-btn" id="themeBtn">Theme: Slate</button>
       <button class="auth-btn" id="authBtn">Connect to edit</button>
     </div>
   </div>
@@ -180,7 +219,7 @@
     </table>
     <button class="add-row-btn" id="addContactRow">+ add coach contact</button>
 
-    <div style="margin-top:18px; font-size:0.82rem; color:var(--text-dim); margin-bottom:6px;">General notes (camps, showcases, film sent, etc.)</div>
+    <div style="margin-top:18px; font-size:var(--fs-sm); color:var(--text-dim); margin-bottom:6px;">General notes (camps, showcases, film sent, etc.)</div>
     <textarea id="baseballNotes" placeholder="e.g. Attended WPI prospect camp 7/12, sent updated velo video to Bucknell coach 7/20..."></textarea>
   </div>
 
@@ -194,6 +233,39 @@ const CONFIG = { owner: "jcphilly", repo: "college-tracker", branch: "main", pat
 const API_URL = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${CONFIG.path}`;
 const WORKER_URL = "https://college-tracker-proxy.joecamp.workers.dev";
 const PASSWORD_KEY = "collegeTrackerEditPassword";
+const THEME_KEY = "collegeTrackerTheme";
+
+const THEMES = [
+  { id: "slate", label: "Slate" },
+  { id: "warm", label: "Warm Academic" },
+  { id: "crimson", label: "Crimson Ivy" },
+  { id: "ocean", label: "Ocean Slate" }
+];
+
+function applyTheme(id) {
+  if (id === "slate") {
+    document.documentElement.removeAttribute("data-theme");
+  } else {
+    document.documentElement.setAttribute("data-theme", id);
+  }
+  const label = THEMES.find(t => t.id === id)?.label || "Slate";
+  document.getElementById("themeBtn").textContent = `Theme: ${label}`;
+}
+
+function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY) || "slate";
+  applyTheme(saved);
+}
+
+document.getElementById("themeBtn").onclick = () => {
+  const current = localStorage.getItem(THEME_KEY) || "slate";
+  const idx = THEMES.findIndex(t => t.id === current);
+  const next = THEMES[(idx + 1) % THEMES.length].id;
+  localStorage.setItem(THEME_KEY, next);
+  applyTheme(next);
+};
+
+initTheme();
 
 const STATUS_ORDER = ["not_started", "in_progress", "submitted", "decision", "waitlisted", "denied"];
 const STATUS_LABEL = {
