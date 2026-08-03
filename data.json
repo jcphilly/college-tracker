@@ -15,8 +15,30 @@
           "email": "mnoone@babson.edu",
           "phone": "(781) 239-5823",
           "twitter": null
+        },
+        {
+          "name": "Bruce Ginsberg",
+          "role": "Assistant Coach",
+          "email": "bginsberg@babson.edu",
+          "phone": "(617) 510-8467",
+          "twitter": null
+        },
+        {
+          "name": "Norm Govoni",
+          "role": "Assistant Coach",
+          "email": "govoni@babson.edu",
+          "phone": "(781) 239-4335",
+          "twitter": null
+        },
+        {
+          "name": "Mitchell Holmes",
+          "role": "Assistant Coach",
+          "email": "mholmes1@babson.edu",
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Bucknell University",
@@ -29,12 +51,34 @@
       "coaches": [
         {
           "name": "Scott Heather",
-          "role": "Head Baseball Coach",
+          "role": "Head Coach",
           "email": "sheather@bucknell.edu",
-          "phone": "570-577-3593 (baseball office)",
+          "phone": "570-577-3593",
+          "twitter": null
+        },
+        {
+          "name": "Jason Neitz",
+          "role": "Assistant Coach (Pitching Coach)",
+          "email": "jln013@bucknell.edu",
+          "phone": "570-577-1059",
+          "twitter": null
+        },
+        {
+          "name": "Josh Kieffer",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Matt Busch",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
           "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Case Western Reserve University",
@@ -51,8 +95,23 @@
           "email": "matthew.englander@case.edu",
           "phone": "216-368-5379",
           "twitter": null
+        },
+        {
+          "name": "Steve Gruenberg",
+          "role": "Assistant Coach",
+          "email": "stephen.gruenberg@case.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Matt Johnson",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "College of the Holy Cross",
@@ -68,9 +127,31 @@
           "role": "Head Coach",
           "email": "ekahovec@holycross.edu",
           "phone": "508-793-2753",
+          "twitter": "@EdKahovec"
+        },
+        {
+          "name": "Sam Tinkham",
+          "role": "Associate Head Coach / Recruiting Coordinator",
+          "email": "stinkham@holycross.edu",
+          "phone": "508-793-3406",
+          "twitter": "@SamTinkham"
+        },
+        {
+          "name": "Jack Hawke",
+          "role": "Assistant Coach",
+          "email": "chawke@holycross.edu",
+          "phone": "508-793-2571",
+          "twitter": null
+        },
+        {
+          "name": "Bobby Bordieri",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
           "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Dickinson College",
@@ -83,12 +164,34 @@
       "coaches": [
         {
           "name": "Craig Hanson",
-          "role": "Head Baseball Coach",
+          "role": "Head Coach",
           "email": "hansonc@dickinson.edu",
           "phone": "717-245-1982",
           "twitter": null
+        },
+        {
+          "name": "Kraigen Rasalla",
+          "role": "Assistant Coach (Pitching Coach / Assistant Recruiting Coordinator)",
+          "email": "rasallak@dickinson.edu",
+          "phone": "717-245-1150",
+          "twitter": null
+        },
+        {
+          "name": "Jake Warner",
+          "role": "Assistant Coach",
+          "email": "warnerja@dickinson.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "LK Thompson",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Fairfield University",
@@ -105,8 +208,23 @@
           "email": "bfay@fairfield.edu",
           "phone": "203-254-4000 ext. 3178",
           "twitter": null
+        },
+        {
+          "name": "Chris Tilton",
+          "role": "Pitching Coach / Recruiting Coordinator",
+          "email": "ctilton@fairfield.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "John Lagerfeldt",
+          "role": "Assistant Coach",
+          "email": "jlagerfeldt@fairfield.edu",
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Florida State University",
@@ -120,11 +238,40 @@
         {
           "name": "Link Jarrett",
           "role": "Head Coach",
-          "email": "coachjarrett@fsu.edu",
-          "phone": "850-644-1073",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Micah Posey",
+          "role": "Pitching Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Brad Vanderglas",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Ty Megahee",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Drew Linder",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
           "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Hofstra University",
@@ -140,9 +287,38 @@
           "role": "Head Coach",
           "email": "frank.j.catalanotto@hofstra.edu",
           "phone": "(516) 463-3759",
+          "twitter": "@fcat27"
+        },
+        {
+          "name": "Chris Rojas",
+          "role": "Associate Head Coach (Pitching Coach)",
+          "email": "christopher.l.rojas@hofstra.edu",
+          "phone": "(516) 463-5923",
+          "twitter": "@chrisrojas30"
+        },
+        {
+          "name": "Frank Battaglia",
+          "role": "Assistant Coach",
+          "email": "frank.battaglia@hofstra.edu",
+          "phone": "(516) 463-5056",
+          "twitter": null
+        },
+        {
+          "name": "Matt Pelcher",
+          "role": "Volunteer Assistant Coach Trainee",
+          "email": "Matthew.Pelcher@hofstra.edu",
+          "phone": "516-463-5056",
+          "twitter": "@mattpelcher13"
+        },
+        {
+          "name": "Jimmy Goelz",
+          "role": "Director of Baseball Operations",
+          "email": "james.e.goelz@hofstra.edu",
+          "phone": "(516) 463-5056",
           "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": "@hofstrabaseball"
     },
     {
       "name": "Lafayette College",
@@ -159,8 +335,37 @@
           "email": "millera@lafayette.edu",
           "phone": "610-330-5945",
           "twitter": null
+        },
+        {
+          "name": "Jabin Weaver",
+          "role": "Recruiting Coordinator / Pitching Coach",
+          "email": "weaverja@lafayette.edu",
+          "phone": "610-330-3212",
+          "twitter": null
+        },
+        {
+          "name": "Colin Houck",
+          "role": "Assistant Coach / Director of Technology & Scouting",
+          "email": "houckc@lafayette.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Gregg Durrah",
+          "role": "Assistant Coach",
+          "email": "durrahg@lafayette.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Hannah Ally",
+          "role": "Baseball Creative Content Director",
+          "email": "allyh@lafayette.edu",
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Penn State University (University Park)",
@@ -177,8 +382,44 @@
           "email": "baseball@psu.edu",
           "phone": null,
           "twitter": null
+        },
+        {
+          "name": "Scott Loiseau",
+          "role": "Associate Head Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Nick Puccio",
+          "role": "Assistant Coach / Recruiting Coordinator",
+          "email": "n.puccio@psu.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Will Jauss",
+          "role": "Assistant Coach",
+          "email": "will.jauss@psu.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Jake Palomaki",
+          "role": "Assistant Coach",
+          "email": "jpalomaki@psu.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Ford Ladd",
+          "role": "Director of Pitching Technology",
+          "email": "fvl5201@psu.edu",
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Princeton University",
@@ -191,12 +432,13 @@
       "coaches": [
         {
           "name": "Ryan Forrest",
-          "role": "Head Coach",
+          "role": "Robert H.B. Baldwin '42 Head Coach of Baseball",
           "email": "tigerbaseball@princeton.edu",
-          "phone": "609-258-5059 (program office)",
-          "twitter": null
+          "phone": "609-258-5059",
+          "twitter": "@CoachForrest14"
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Sacred Heart University",
@@ -210,11 +452,26 @@
         {
           "name": "Pat Egan",
           "role": "Head Coach",
-          "email": "eganp3@sacredheart.edu",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "TK Kiernan",
+          "role": "Assistant Coach / Recruiting Coordinator",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Jake Babuschak",
+          "role": "Director of Pitching Development",
+          "email": null,
           "phone": null,
           "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": "@sacredheartbsb"
     },
     {
       "name": "Skidmore College",
@@ -231,8 +488,30 @@
           "email": "rplourde@skidmore.edu",
           "phone": "(518) 580-5380",
           "twitter": null
+        },
+        {
+          "name": "Matt Karpousis",
+          "role": "Pitching Coach",
+          "email": "mkarpous@skidmore.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "J.T. Tellstone",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "John Barnes",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Stevens Institute of Technology",
@@ -249,8 +528,23 @@
           "email": "kaldins@stevens.edu",
           "phone": "201-216-8033",
           "twitter": null
+        },
+        {
+          "name": "Brendan Smith",
+          "role": "Assistant Coach / Recruiting Coordinator",
+          "email": "bsmith18@stevens.edu",
+          "phone": "201-216-8033",
+          "twitter": null
+        },
+        {
+          "name": "Vinny Carlesi Jr.",
+          "role": "Volunteer Assistant Coach / Athletic Event Coordinator",
+          "email": "vcarlesi@stevens.edu",
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Trinity College",
@@ -267,8 +561,37 @@
           "email": "bryan.adamski@trincoll.edu",
           "phone": "860-297-2066",
           "twitter": null
+        },
+        {
+          "name": "Jason Szafarski",
+          "role": "Assistant Baseball Coach",
+          "email": "jason.szafarski@trincoll.edu",
+          "phone": "860-297-4043",
+          "twitter": null
+        },
+        {
+          "name": "Matt Gedman",
+          "role": "Assistant Baseball Coach",
+          "email": "matthew.gedman@trincoll.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Matt Rondinone",
+          "role": "Assistant Baseball Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Jacob Tipton",
+          "role": "Assistant Baseball Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Tulane University",
@@ -285,8 +608,23 @@
           "email": null,
           "phone": null,
           "twitter": "@jezk1010"
+        },
+        {
+          "name": "Chris Wojick",
+          "role": "Pitching Coach / Recruiting Coordinator",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Justin Bridgman",
+          "role": "Hitting Coach / Infield Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Union College",
@@ -303,8 +641,16 @@
           "email": "baseball@union.edu",
           "phone": "518-388-8025",
           "twitter": null
+        },
+        {
+          "name": "Duke Beck",
+          "role": "Hitting Coach / Recruiting Coordinator",
+          "email": "beckg@union.edu",
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": "@UnionCollegeBB"
     },
     {
       "name": "University of Delaware",
@@ -318,11 +664,33 @@
         {
           "name": "Greg Mamula",
           "role": "Head Coach",
-          "email": "mamula@udel.edu",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Daniel Sweeney",
+          "role": "Pitching Coach",
+          "email": "dsweeney@udel.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Chris Bresnahan",
+          "role": "Recruiting Coordinator",
+          "email": "cbresnah@udel.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Jimmy Losh",
+          "role": "Assistant Coach",
+          "email": "jlosh@udel.edu",
           "phone": null,
           "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "University of Florida",
@@ -336,11 +704,33 @@
         {
           "name": "Kevin O'Sullivan",
           "role": "Head Coach",
-          "email": "baseballmail@gators.ufl.edu",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Tom Slater",
+          "role": "Associate Head Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "David Kopp",
+          "role": "Pitching Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Taylor Black",
+          "role": "Assistant Coach",
+          "email": null,
           "phone": null,
           "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "University of Richmond",
@@ -357,8 +747,30 @@
           "email": "mik.aoki@richmond.edu",
           "phone": null,
           "twitter": null
+        },
+        {
+          "name": "Josh Epstein",
+          "role": "Assistant Coach / Pitching Coach",
+          "email": "jepstein@richmond.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Collin Radack",
+          "role": "Assistant Coach / Hitting Coach",
+          "email": "cradack@richmond.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Kyle Norman",
+          "role": "Assistant Coach",
+          "email": "kyle.norman@richmond.edu",
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Villanova University",
@@ -375,8 +787,30 @@
           "email": "villanovabaseball@villanova.edu",
           "phone": "ext. 4529",
           "twitter": null
+        },
+        {
+          "name": "Eddie Brown",
+          "role": "Associate Head Coach (Hitting/Infield)",
+          "email": "villanovabaseball@villanova.edu",
+          "phone": "ext. 5520",
+          "twitter": null
+        },
+        {
+          "name": "Mike Russo",
+          "role": "Assistant Coach (Pitching)",
+          "email": "mrusso09@villanova.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Dusty Snyder",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Worcester Polytechnic Institute",
@@ -393,8 +827,23 @@
           "email": "bcasey@wpi.edu",
           "phone": "508-831-5430",
           "twitter": null
+        },
+        {
+          "name": "Matt Weagle",
+          "role": "Pitching Coach",
+          "email": "mweagle@wpi.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Brian Lambert",
+          "role": "Assistant Coach",
+          "email": "blambert@wpi.edu",
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     },
     {
       "name": "Yale University",
@@ -411,8 +860,37 @@
           "email": "brian.hamm@yale.edu",
           "phone": null,
           "twitter": null
+        },
+        {
+          "name": "Corey Keane",
+          "role": "Hitting Coach",
+          "email": "corey.keane@yale.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Trevor Wren",
+          "role": "Assistant Coach",
+          "email": "trevor.wren@yale.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Josh Laurie",
+          "role": "Director of Player Development",
+          "email": "joshua.laurie@yale.edu",
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Joe Espinosa",
+          "role": "Director of Player Development & Defensive Coordinator",
+          "email": "Joe.espinosa@yale.edu",
+          "phone": null,
+          "twitter": null
         }
-      ]
+      ],
+      "teamTwitter": null
     }
   ],
   "baseballNotes": "Research notes (Aug 2026): most deadlines below are current-page dates but only 7 of 23 schools' pages explicitly confirmed \"2026-27\"/\"Fall 2027\" — double check the ones flagged \"unconfirmed\" before treating as final. Coach emails for Bucknell, FSU, Sacred Heart, UD, and Richmond came from search-index results, not a direct page fetch — verify before emailing. Tulane's coach has no email/phone listed publicly. Fairfield has a new head coach (Brian Fay, replacing retired Bill Currier). FSU and UF both added a new binding Early Decision option this cycle (Oct 15) — verify details directly with admissions. Princeton's coach (Ryan Forrest) was just named in July 2026, so only the program office contact is available yet."
