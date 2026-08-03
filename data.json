@@ -309,7 +309,7 @@
       "teamTwitter": "@hofstrabaseball",
       "name": "Hofstra University",
       "status": "in_progress",
-      "portal": "https://admission.hofstra.edu/apply/",
+      "portal": "https://www.commonapp.org/explore/hofstra-university/",
       "deadline": "RD — Rolling after 2/1"
     },
     {
@@ -404,7 +404,7 @@
         }
       ],
       "notes": "",
-      "estimatedCost": "45k",
+      "estimatedCost": "43k",
       "teamTwitter": null,
       "name": "Penn State University (University Park)",
       "status": "in_progress",
