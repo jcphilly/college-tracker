@@ -464,6 +464,45 @@
     {
       "coaches": [
         {
+          "name": "Fritz Hamburg",
+          "role": "Head Coach",
+          "email": "chamburg@sju.edu",
+          "phone": "(610) 660-1718",
+          "twitter": null
+        },
+        {
+          "name": "Lee Saverio",
+          "role": "Assistant Coach",
+          "email": null,
+          "phone": null,
+          "twitter": null
+        },
+        {
+          "name": "Doc Neiman",
+          "role": "Assistant Coach (Hitting Coach)",
+          "email": "dneiman@sju.edu",
+          "phone": "(610) 660-1704",
+          "twitter": null
+        },
+        {
+          "name": "Scott Boches",
+          "role": "Assistant Coach (Pitching Coach)",
+          "email": "sboches@sju.edu",
+          "phone": "(610) 660-1704",
+          "twitter": null
+        }
+      ],
+      "notes": "Atlantic 10 Division I; local (Philadelphia). Own application AND Common App AND Coalition — does not have to consume a Common App slot. No application fee. Test optional; all applicants auto-reviewed for merit scholarships. Coach emails/phones verified directly from the live sjuhawks staff page (Lee Saverio has no contact published). Hitting/pitching specialties came from press releases, not the staff page — titles there read just \"Assistant Coach\".",
+      "estimatedCost": "74k (sticker, before aid)",
+      "teamTwitter": "@SJUHawks_Base",
+      "name": "Saint Joseph's University",
+      "status": "in_progress",
+      "portal": "https://admission.sju.edu/apply/?pk=UD",
+      "deadline": "EA/ED I — 11/15 · ED II — 1/15 · RD — 2/1"
+    },
+    {
+      "coaches": [
+        {
           "name": "Ron Plourde",
           "role": "Head Baseball Coach",
           "email": "rplourde@skidmore.edu",
@@ -916,5 +955,5 @@
       "deadline": "RD — 1/2"
     }
   ],
-  "baseballNotes": "Research notes (Aug 2026): most deadlines below are current-page dates but only 7 of 24 schools' pages explicitly confirmed \"2026-27\"/\"Fall 2027\" — double check the ones flagged \"unconfirmed\" before treating as final. Coach emails for Bucknell, FSU, Sacred Heart, UD, and Richmond came from search-index results, not a direct page fetch — verify before emailing. Tulane's coach has no email/phone listed publicly. Fairfield has a new head coach (Brian Fay, replacing retired Bill Currier). FSU and UF both added a new binding Early Decision option this cycle (Oct 15) — verify details directly with admissions. Princeton's coach (Ryan Forrest) was just named in July 2026, so only the program office contact is available yet. Pitt added Aug 2026: coach names come from the Sept 2025 staff-announcement release (staff page is JS-rendered and lists no emails/phones), so all five contacts need verifying before outreach."
+  "baseballNotes": "Research notes (Aug 2026): most deadlines below are current-page dates but only 7 of 25 schools' pages explicitly confirmed \"2026-27\"/\"Fall 2027\" — double check the ones flagged \"unconfirmed\" before treating as final. Coach emails for Bucknell, FSU, Sacred Heart, UD, and Richmond came from search-index results, not a direct page fetch — verify before emailing. Tulane's coach has no email/phone listed publicly. Fairfield has a new head coach (Brian Fay, replacing retired Bill Currier). FSU and UF both added a new binding Early Decision option this cycle (Oct 15) — verify details directly with admissions. Princeton's coach (Ryan Forrest) was just named in July 2026, so only the program office contact is available yet. Pitt added Aug 2026: coach names come from the Sept 2025 staff-announcement release (staff page is JS-rendered and lists no emails/phones), so all five contacts need verifying before outreach. Saint Joseph's added Aug 2026: coach emails/phones were read off the live staff page so they are verified, but Lee Saverio has no contact listed and the hitting/pitching designations come from press releases rather than the staff page."
 }
