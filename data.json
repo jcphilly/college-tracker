@@ -361,59 +361,6 @@
     {
       "coaches": [
         {
-          "name": "Mike Gambino",
-          "role": "Head Coach",
-          "email": "baseball@psu.edu",
-          "phone": null,
-          "twitter": null
-        },
-        {
-          "name": "Scott Loiseau",
-          "role": "Associate Head Coach",
-          "email": null,
-          "phone": null,
-          "twitter": null
-        },
-        {
-          "name": "Nick Puccio",
-          "role": "Assistant Coach / Recruiting Coordinator",
-          "email": "n.puccio@psu.edu",
-          "phone": null,
-          "twitter": null
-        },
-        {
-          "name": "Will Jauss",
-          "role": "Assistant Coach",
-          "email": "will.jauss@psu.edu",
-          "phone": null,
-          "twitter": null
-        },
-        {
-          "name": "Jake Palomaki",
-          "role": "Assistant Coach",
-          "email": "jpalomaki@psu.edu",
-          "phone": null,
-          "twitter": null
-        },
-        {
-          "name": "Ford Ladd",
-          "role": "Director of Pitching Technology",
-          "email": "fvl5201@psu.edu",
-          "phone": null,
-          "twitter": null
-        }
-      ],
-      "notes": "",
-      "estimatedCost": "43k, $65 application fee",
-      "teamTwitter": "@PennStateBASE",
-      "name": "Penn State University (University Park)",
-      "status": "in_progress",
-      "portal": "https://mypennstate.psu.edu/index.cfm/login",
-      "deadline": "EA — 11/1"
-    },
-    {
-      "coaches": [
-        {
           "name": "Ryan Forrest",
           "role": "Robert H.B. Baldwin '42 Head Coach of Baseball",
           "email": "tigerbaseball@princeton.edu",
