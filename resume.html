@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logan Joseph Camp — Resume</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root {
+    --ink: #1a2332;
+    --paper: #f7f5f0;
+    --paper-2: #ffffff;
+    --rule: #d8d2c4;
+    --accent: #8a6d3b;
+    --text-secondary: #5b5748;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #ece8de;
+      --paper: #12161f;
+      --paper-2: #1a2029;
+      --rule: #333c4d;
+      --accent: #c9a35f;
+      --text-secondary: #a9a494;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #ece8de;
+    --paper: #12161f;
+    --paper-2: #1a2029;
+    --rule: #333c4d;
+    --accent: #c9a35f;
+    --text-secondary: #a9a494;
+  }
+  :root[data-theme="light"] {
+    --ink: #1a2332;
+    --paper: #f7f5f0;
+    --paper-2: #ffffff;
+    --rule: #d8d2c4;
+    --accent: #8a6d3b;
+    --text-secondary: #5b5748;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    padding: clamp(24px, 6vw, 64px) clamp(16px, 5vw, 24px) 80px;
+  }
+
+  .sheet {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: clamp(28px, 6vw, 56px);
+  }
+
+  .masthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: clamp(2.1rem, 4.5vw + 0.6rem, 3.1rem);
+    letter-spacing: -0.01em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .contact {
+    text-align: right;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    font-variant-numeric: tabular-nums;
+  }
+  .contact a { color: var(--text-secondary); text-decoration: none; }
+  .contact a:hover { color: var(--accent); }
+
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 6px;
+  }
+  .actions a {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .actions a:hover { opacity: 0.75; }
+
+  section { margin-bottom: 30px; }
+  section:last-child { margin-bottom: 0; }
+
+  h2 {
+    font-size: 0.76rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 0 0 14px;
+  }
+
+  .entry { display: flex; flex-direction: column; gap: 2px; margin-bottom: 16px; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 2px 16px;
+  }
+  .entry-title { font-weight: 600; font-size: 1.02rem; }
+  .entry-org { color: var(--text-secondary); font-weight: 400; }
+  .entry-date {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .entry-desc { font-size: 0.93rem; color: var(--text-secondary); max-width: 62ch; }
+
+  .activities-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 32px;
+  }
+  @media (max-width: 560px) {
+    .activities-grid { grid-template-columns: 1fr; }
+  }
+
+  footer {
+    max-width: 720px;
+    margin: 24px auto 0;
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+  }
+
+  @media print {
+    body { padding: 0; background: #fff; }
+    .sheet { border: none; padding: 0; max-width: none; }
+    .actions { display: none; }
+    footer { display: none; }
+  }
+</style>
+</head>
+<body>
+  <div class="sheet">
+    <div class="masthead">
+      <h1>Logan Joseph Camp</h1>
+      <div class="contact">
+        Swarthmore, PA 19081<br>
+        (484) 479-6939<br>
+        <a href="mailto:logacamp@haverford.org">logacamp@haverford.org</a>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a href="./logan-resume.pdf">Download PDF</a>
+    </div>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">The Haverford School</span>
+          <span class="entry-date">Class of 2027</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Caddie <span class="entry-org">— Spring Haven Country Club, Wallingford, PA</span></span>
+          <span class="entry-date">June 2022 – Present</span>
+        </div>
+        <div class="entry-desc">Assisted golfers with yardage, carried the golfers' bags. Ensured companionship by listening attentively and conversing about various topics throughout rounds.</div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Classroom Assistant <span class="entry-org">— Drexel Neumann Academy, Chester, PA</span></span>
+          <span class="entry-date">Jun – Jul 2026</span>
+        </div>
+        <div class="entry-desc">Volunteer for extended school year program. Assisted in the fourth-grade classroom, helping individual students in math, English, and science work. Supported the teacher in classroom management and activities. 12 hours a week for three weeks.</div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Cultural Exchange <span class="entry-org">— Tainan, Taiwan</span></span>
+          <span class="entry-date">Oct 2024, Dec 2025, Apr 2026</span>
+        </div>
+        <div class="entry-desc">Hosted a student from Taiwan at our family home for one week twice (October 2024, April 2026). Traveled to Taiwan for two weeks in December 2025, staying with a host family for one week, attending classes, and touring Taiwan.</div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Gardener <span class="entry-org">— Red Hill Farm CSA, Aston, PA</span></span>
+          <span class="entry-date">Jun – Aug 2025</span>
+        </div>
+        <div class="entry-desc">Volunteer at Red Hill Farm. Assisted with planting, weeding, and harvesting, approximately 3 hours per week for the summer.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Activities</h2>
+      <div class="activities-grid">
+
+        <div class="entry">
+          <div class="entry-title">Baseball</div>
+          <div class="entry-desc">Main sport. Haverford School JV freshman year, JV/Varsity swing player sophomore year, injured junior year — assisted team with scoring and GameChanger. Summer and fall travel team participation, year-round training.</div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-title">Speech and Debate Team <span class="entry-org">— The Haverford School</span></div>
+          <div class="entry-desc">Weekly meetings, fall through early spring. Meets with teammates to brainstorm ideas and help each other with topics.</div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-title">Math Club <span class="entry-org">— The Haverford School</span></div>
+          <div class="entry-desc">Biweekly meetings, working with a team to solve complex problems. Chosen to represent the Haverford School at the MathWorks Math Modeling Challenge 2026 and the OWLympiad, a math contest for high school juniors hosted by Temple University's Fox School of Business.</div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-title">Football <span class="entry-org">— The Haverford School</span></div>
+          <div class="entry-desc">Never played before trying out junior year — named starting kicker for the team and had a successful year.</div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-title">Chess Club <span class="entry-org">— The Haverford School</span></div>
+          <div class="entry-desc">Weekly meetings and games with classmates. About 3 hours a week all year spent playing chess in school and personal time.</div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-title">Community Service <span class="entry-org">— Various</span></div>
+          <div class="entry-desc">Volunteers when able — MLK Day activities at the Haverford School, Kids Against Hunger United, and the St. Francis Inn soup kitchen.</div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-title">Reading</div>
+          <div class="entry-desc">Avid reader of fiction, non-fiction, and personal development.</div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <footer>Last updated August 2026</footer>
+</body>
+</html>
