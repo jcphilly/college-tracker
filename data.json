@@ -900,6 +900,16 @@
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/yale-university/",
       "deadline": "RD — 1/2"
+    },
+    {
+      "name": "Embry-Riddle Aeronautical University (Daytona Beach)",
+      "deadline": "",
+      "status": "not_started",
+      "portal": "https://erau.edu/start-your-application",
+      "estimatedCost": "",
+      "notes": "",
+      "coaches": [],
+      "teamTwitter": ""
     }
   ],
   "baseballNotes": "Research notes (Aug 2026): most deadlines below are current-page dates but only 7 of 25 schools' pages explicitly confirmed \"2026-27\"/\"Fall 2027\" — double check the ones flagged \"unconfirmed\" before treating as final. Coach emails for Bucknell, FSU, Sacred Heart, UD, and Richmond came from search-index results, not a direct page fetch — verify before emailing. Tulane's coach has no email/phone listed publicly. Fairfield has a new head coach (Brian Fay, replacing retired Bill Currier). FSU and UF both added a new binding Early Decision option this cycle (Oct 15) — verify details directly with admissions. Princeton's coach (Ryan Forrest) was just named in July 2026, so only the program office contact is available yet. Pitt added Aug 2026: coach names come from the Sept 2025 staff-announcement release (staff page is JS-rendered and lists no emails/phones), so all five contacts need verifying before outreach. Saint Joseph's added Aug 2026: coach emails/phones were read off the live staff page so they are verified, but Lee Saverio has no contact listed and the hitting/pitching designations come from press releases rather than the staff page. Team X/Twitter handles filled in Aug 2026 from search-index results that returned the live x.com profile URL; they were not opened and confirmed one by one, so spot-check before following or DMing. Two caveats: Case Western has TWO accounts (@cwru_baseball and @CWRUbaseball) and it is unclear which is current; Trinity was disambiguated as @TrinBaseball (\"Bantam Baseball\", the Hartford mascot) because @TrinityBaseball appears to belong to Trinity University in Texas."
