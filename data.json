@@ -98,7 +98,7 @@
           "name": "Matt Johnson",
           "role": "Assistant Coach",
           "email": null,
-          "phone": null,
+          "phone": "",
           "twitter": null
         }
       ],
