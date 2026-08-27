@@ -139,6 +139,13 @@
           "email": null,
           "phone": null,
           "twitter": null
+        },
+        {
+          "name": "",
+          "role": "",
+          "email": "",
+          "phone": "",
+          "twitter": ""
         }
       ],
       "notes": "Michael Plourd Associate Director of Admissionmplourd@holycross.edu 508-793-2443",
