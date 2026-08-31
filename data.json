@@ -451,7 +451,7 @@
       "teamTwitter": "@SJUHawks_Base",
       "name": "Saint Joseph's University",
       "status": "submitted",
-      "portal": "https://admission.sju.edu/apply/?pk=UD",
+      "portal": "https://admission.sju.edu/portal/status",
       "deadline": "RD — 2/1"
     },
     {
@@ -951,7 +951,7 @@
       "teamTwitter": "@ERAUBaseball",
       "name": "Embry-Riddle Aeronautical University (Daytona Beach)",
       "deadline": "Rolling",
-      "status": "not_started",
+      "status": "in_progress",
       "portal": "https://erau.edu/start-your-application"
     }
   ],
