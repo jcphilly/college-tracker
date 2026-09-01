@@ -37,7 +37,12 @@
       "name": "Babson College",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/babson-college/",
-      "deadline": "RD — 1/3"
+      "deadline": "RD — 1/3",
+      "ncaaDivision": "NCAA Division III",
+      "conference": "NEWMAC",
+      "rosterSize": 43,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "high"
     },
     {
       "coaches": [
@@ -76,7 +81,12 @@
       "name": "Bucknell University",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/bucknell-university/",
-      "deadline": "RD — 1/10"
+      "deadline": "RD — 1/10",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Patriot League",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "high"
     },
     {
       "coaches": [
@@ -108,7 +118,12 @@
       "name": "Case Western Reserve University",
       "status": "submitted",
       "portal": "https://www.commonapp.org/explore/case-western-reserve-university/",
-      "deadline": "RD — 1/15"
+      "deadline": "RD — 1/15",
+      "ncaaDivision": "NCAA Division III",
+      "conference": "University Athletic Association",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "medium"
     },
     {
       "coaches": [
@@ -154,7 +169,12 @@
       "name": "College of the Holy Cross",
       "status": "submitted",
       "portal": "https://www.commonapp.org/explore/college-holy-cross/",
-      "deadline": "RD — 1/15"
+      "deadline": "RD — 1/15",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Patriot League",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "low"
     },
     {
       "coaches": [
@@ -193,7 +213,12 @@
       "name": "Dickinson College",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/dickinson-college/",
-      "deadline": "RD — 1/15"
+      "deadline": "RD — 1/15",
+      "ncaaDivision": "NCAA Division III",
+      "conference": "Centennial Conference",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "medium"
     },
     {
       "coaches": [
@@ -225,7 +250,12 @@
       "name": "Fairfield University",
       "status": "submitted",
       "portal": "https://ugadmission.fairfield.edu/apply/status",
-      "deadline": "RD — 1/15"
+      "deadline": "RD — 1/15",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Metro Atlantic Athletic Conference",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "high"
     },
     {
       "coaches": [
@@ -271,7 +301,12 @@
       "name": "Florida State University",
       "status": "submitted",
       "portal": "https://admissions.fsu.edu/undergradapp/first-year",
-      "deadline": "EA — 12/1"
+      "deadline": "EA — 12/1",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Atlantic Coast Conference",
+      "rosterSize": 38,
+      "demonstratedInterest": false,
+      "demonstratedInterestConfidence": "high"
     },
     {
       "coaches": [
@@ -317,7 +352,12 @@
       "name": "Hofstra University",
       "status": "submitted",
       "portal": "https://admission.hofstra.edu/apply/status#collapse-meet1",
-      "deadline": "RD — Rolling after 2/1"
+      "deadline": "RD — Rolling after 2/1",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Coastal Athletic Association",
+      "rosterSize": 35,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "low"
     },
     {
       "coaches": [
@@ -363,7 +403,12 @@
       "name": "Lafayette College",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/lafayette-college/",
-      "deadline": "RD — 1/5"
+      "deadline": "RD — 1/5",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Patriot League",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "medium"
     },
     {
       "coaches": [
@@ -381,7 +426,12 @@
       "name": "Princeton University",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/princeton-university/",
-      "deadline": "SCEA — 11/1"
+      "deadline": "SCEA — 11/1",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Ivy League",
+      "rosterSize": null,
+      "demonstratedInterest": false,
+      "demonstratedInterestConfidence": "high"
     },
     {
       "coaches": [
@@ -413,7 +463,12 @@
       "name": "Sacred Heart University",
       "status": "submitted",
       "portal": "https://www.commonapp.org/explore/sacred-heart-university/",
-      "deadline": "RD — Rolling after 2/1"
+      "deadline": "RD — Rolling after 2/1",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Metro Atlantic Athletic Conference",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "medium"
     },
     {
       "coaches": [
@@ -452,7 +507,12 @@
       "name": "Saint Joseph's University",
       "status": "submitted",
       "portal": "https://admission.sju.edu/portal/status",
-      "deadline": "RD — 2/1"
+      "deadline": "RD — 2/1",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Atlantic 10",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "low"
     },
     {
       "coaches": [
@@ -491,7 +551,12 @@
       "name": "Skidmore College",
       "status": "submitted",
       "portal": "https://apply.commonapp.org/login?ma=246",
-      "deadline": "RD — 1/8"
+      "deadline": "RD — 1/8",
+      "ncaaDivision": "NCAA Division III",
+      "conference": "Liberty League",
+      "rosterSize": 34,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "medium-high"
     },
     {
       "coaches": [
@@ -523,7 +588,12 @@
       "name": "Stevens Institute of Technology",
       "status": "submitted",
       "portal": "https://undergradadmissions.stevens.edu/apply/status?v=app",
-      "deadline": "RD — 1/5"
+      "deadline": "RD — 1/5",
+      "ncaaDivision": "NCAA Division III",
+      "conference": "Middle Atlantic Conference (Freedom)",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "low"
     },
     {
       "coaches": [
@@ -569,7 +639,12 @@
       "name": "Trinity College",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/trinity-college/",
-      "deadline": "RD — 1/15"
+      "deadline": "RD — 1/15",
+      "ncaaDivision": "NCAA Division III",
+      "conference": "NESCAC",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "medium"
     },
     {
       "coaches": [
@@ -601,7 +676,12 @@
       "name": "Tulane University",
       "status": "submitted",
       "portal": "https://www.commonapp.org/explore/tulane-university/",
-      "deadline": "RD — 1/15"
+      "deadline": "RD — 1/15",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "American Athletic Conference",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "high"
     },
     {
       "coaches": [
@@ -626,7 +706,12 @@
       "name": "Union College",
       "status": "submitted",
       "portal": "https://apply.commonapp.org/Login?ma=273",
-      "deadline": "RD — 1/15"
+      "deadline": "RD — 1/15",
+      "ncaaDivision": "NCAA Division III",
+      "conference": "Liberty League",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "medium"
     },
     {
       "coaches": [
@@ -665,7 +750,12 @@
       "name": "University of Delaware",
       "status": "submitted",
       "portal": "https://apply.udel.edu/",
-      "deadline": "EA — 11/1"
+      "deadline": "EA — 11/1",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Conference USA",
+      "rosterSize": 38,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "medium"
     },
     {
       "coaches": [
@@ -704,7 +794,12 @@
       "name": "University of Florida",
       "status": "submitted",
       "portal": "https://www.commonapp.org/explore/university-florida/",
-      "deadline": "EA — 11/1"
+      "deadline": "EA — 11/1",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Southeastern Conference",
+      "rosterSize": 41,
+      "demonstratedInterest": false,
+      "demonstratedInterestConfidence": "high"
     },
     {
       "coaches": [
@@ -750,7 +845,12 @@
       "name": "University of Pittsburgh",
       "status": "decision",
       "portal": "https://pitt.mycollegeapplication.org/Login.aspx",
-      "deadline": "12/1"
+      "deadline": "12/1",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Atlantic Coast Conference",
+      "rosterSize": 40,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "medium"
     },
     {
       "coaches": [
@@ -789,7 +889,12 @@
       "name": "University of Richmond",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/university-richmond/",
-      "deadline": "RD — 1/1"
+      "deadline": "RD — 1/1",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Atlantic 10",
+      "rosterSize": 37,
+      "demonstratedInterest": false,
+      "demonstratedInterestConfidence": "high"
     },
     {
       "coaches": [
@@ -828,7 +933,12 @@
       "name": "Villanova University",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/villanova-university/",
-      "deadline": "RD — 1/15"
+      "deadline": "RD — 1/15",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Big East",
+      "rosterSize": 33,
+      "demonstratedInterest": false,
+      "demonstratedInterestConfidence": "high"
     },
     {
       "coaches": [
@@ -860,7 +970,12 @@
       "name": "Worcester Polytechnic Institute",
       "status": "submitted",
       "portal": "https://www.commonapp.org/explore/worcester-polytechnic-institute/",
-      "deadline": "RD — 2/1"
+      "deadline": "RD — 2/1",
+      "ncaaDivision": "NCAA Division III",
+      "conference": "NEWMAC",
+      "rosterSize": null,
+      "demonstratedInterest": true,
+      "demonstratedInterestConfidence": "medium"
     },
     {
       "coaches": [
@@ -906,8 +1021,13 @@
       "name": "Yale University",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/yale-university/",
-      "deadline": "RD — 1/2"
+      "deadline": "RD — 1/2",
+      "ncaaDivision": "NCAA Division I",
+      "conference": "Ivy League",
+      "rosterSize": null,
+      "demonstratedInterest": false,
+      "demonstratedInterestConfidence": "high"
     }
   ],
-  "baseballNotes": "Research notes (Aug 2026): most deadlines below are current-page dates but only 7 of 25 schools' pages explicitly confirmed \"2026-27\"/\"Fall 2027\" — double check the ones flagged \"unconfirmed\" before treating as final. Coach emails for Bucknell, FSU, Sacred Heart, UD, and Richmond came from search-index results, not a direct page fetch — verify before emailing. Tulane's coach has no email/phone listed publicly. Fairfield has a new head coach (Brian Fay, replacing retired Bill Currier). FSU and UF both added a new binding Early Decision option this cycle (Oct 15) — verify details directly with admissions. Princeton's coach (Ryan Forrest) was just named in July 2026, so only the program office contact is available yet. Pitt added Aug 2026: coach names come from the Sept 2025 staff-announcement release (staff page is JS-rendered and lists no emails/phones), so all five contacts need verifying before outreach. Saint Joseph's added Aug 2026: coach emails/phones were read off the live staff page so they are verified, but Lee Saverio has no contact listed and the hitting/pitching designations come from press releases rather than the staff page. Team X/Twitter handles filled in Aug 2026 from search-index results that returned the live x.com profile URL; they were not opened and confirmed one by one, so spot-check before following or DMing. Two caveats: Case Western has TWO accounts (@cwru_baseball and @CWRUbaseball) and it is unclear which is current; Trinity was disambiguated as @TrinBaseball (\"Bantam Baseball\", the Hartford mascot) because @TrinityBaseball appears to belong to Trinity University in Texas."
+  "baseballNotes": "Research notes (Aug 2026): most deadlines below are current-page dates but only 7 of 25 schools' pages explicitly confirmed \"2026-27\"/\"Fall 2027\" — double check the ones flagged \"unconfirmed\" before treating as final. Coach emails for Bucknell, FSU, Sacred Heart, UD, and Richmond came from search-index results, not a direct page fetch — verify before emailing. Tulane's coach has no email/phone listed publicly. Fairfield has a new head coach (Brian Fay, replacing retired Bill Currier). FSU and UF both added a new binding Early Decision option this cycle (Oct 15) — verify details directly with admissions. Princeton's coach (Ryan Forrest) was just named in July 2026, so only the program office contact is available yet. Pitt added Aug 2026: coach names come from the Sept 2025 staff-announcement release (staff page is JS-rendered and lists no emails/phones), so all five contacts need verifying before outreach. Saint Joseph's added Aug 2026: coach emails/phones were read off the live staff page so they are verified, but Lee Saverio has no contact listed and the hitting/pitching designations come from press releases rather than the staff page. Team X/Twitter handles filled in Aug 2026 from search-index results that returned the live x.com profile URL; they were not opened and confirmed one by one, so spot-check before following or DMing. Two caveats: Case Western has TWO accounts (@cwru_baseball and @CWRUbaseball) and it is unclear which is current; Trinity was disambiguated as @TrinBaseball (\"Bantam Baseball\", the Hartford mascot) because @TrinityBaseball appears to belong to Trinity University in Texas. Division/conference/demonstratedInterest research (Sept 2026): NCAA division and conference are cross-confirmed via multiple search sources for all 24 schools. Roster sizes are best-effort from search snippets (news previews, \"returners + newcomers\" totals, or third-party aggregators) since official roster pages were not directly fetchable this session — verified/solid counts: FSU (38, from official roster PDF position breakdown), Hofstra (35), Delaware (38), Florida (41), Pitt (40), Villanova (33); softer estimates: Babson (~43), Skidmore (~34, from a season-preview article), Richmond (37, third-party aggregator, not the official page); left null (no reliable count found) for Bucknell, Case Western, Holy Cross, Dickinson, Fairfield, Lafayette, Princeton, Sacred Heart, Saint Joseph's, Stevens, Trinity, Tulane, Union, WPI, Yale — spot-check official roster pages before relying on these. demonstratedInterest (true/false, from each school's Common Data Set section C7 'Level of applicant's interest' where available) has a demonstratedInterestConfidence field per school ('high' = directly corroborated CDS wording or an explicit admissions-office statement, e.g. FSU/Princeton/Richmond/Villanova/Yale all explicitly say interest is NOT considered, contrary to typical assumptions; 'low' = inferred from general admissions commentary rather than a confirmed CDS line — Holy Cross, Hofstra, Saint Joseph's, Stevens fall here and should be verified directly against each school's CDS PDF before treating as certain)."
 }
