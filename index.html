@@ -318,7 +318,7 @@ async function loadData() {
     const json = await res.json();
     const parsed = JSON.parse(b64DecodeUnicode(json.content));
     state = {
-      colleges: (parsed.colleges || []).map(c => ({ coaches: [], notes: "", estimatedCost: "", teamTwitter: "", ...c })),
+      colleges: (parsed.colleges || []).map(c => ({ coaches: [], notes: "", estimatedCost: "", teamTwitter: "", rosterSize: null, ...c })),
       baseballNotes: parsed.baseballNotes || ""
     };
     setSyncStatus("ok", "synced");
@@ -541,6 +541,10 @@ function renderCard(college, editable) {
   appendFieldIfPresent(card, "Plan / Deadline", college.deadline, "e.g. RD — Jan 15", v => college.deadline = v, "none", editable);
   appendFieldIfPresent(card, "Portal", college.portal, "add link", v => college.portal = v, "portal", editable);
   appendFieldIfPresent(card, "Estimated Cost", college.estimatedCost, "add estimate", v => college.estimatedCost = v, "url", editable);
+  appendFieldIfPresent(card, "Roster Size", college.rosterSize, "add roster size", v => {
+    const trimmed = v.trim();
+    college.rosterSize = trimmed === "" ? null : (/^\d+$/.test(trimmed) ? parseInt(trimmed, 10) : trimmed);
+  }, "none", editable);
 
   if (editable || college.notes) {
     const notesRow = document.createElement("div");
