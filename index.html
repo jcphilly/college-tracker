@@ -142,6 +142,15 @@
   .status-waitlisted { background: var(--waitlisted); }
   .status-denied { background: var(--denied); }
 
+  .interest-badge {
+    display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: var(--fs-xs); font-weight: 600;
+    cursor: pointer; color: white; white-space: nowrap; user-select: none;
+  }
+  .interest-badge.locked { cursor: default; opacity: 0.85; }
+  .interest-yes { background: var(--ok); }
+  .interest-no { background: var(--error); }
+  .interest-unknown { background: var(--not-started); }
+
   .link-chip { font-size: var(--fs-xs); color: var(--accent); text-decoration: none; }
   .link-chip:hover { text-decoration: underline; }
   .edit-link-btn {
@@ -318,7 +327,7 @@ async function loadData() {
     const json = await res.json();
     const parsed = JSON.parse(b64DecodeUnicode(json.content));
     state = {
-      colleges: (parsed.colleges || []).map(c => ({ coaches: [], notes: "", estimatedCost: "", teamTwitter: "", rosterSize: null, ...c })),
+      colleges: (parsed.colleges || []).map(c => ({ coaches: [], notes: "", estimatedCost: "", teamTwitter: "", rosterSize: null, ncaaDivision: "", conference: "", demonstratedInterest: null, openHouseDates: "", ...c })),
       baseballNotes: parsed.baseballNotes || ""
     };
     setSyncStatus("ok", "synced");
@@ -464,6 +473,17 @@ function renderFilters() {
   });
 }
 
+function interestBadgeLabel(val) {
+  if (val === true) return "Yes";
+  if (val === false) return "No";
+  return "Unknown";
+}
+function interestBadgeClass(val) {
+  if (val === true) return "interest-yes";
+  if (val === false) return "interest-no";
+  return "interest-unknown";
+}
+
 function fieldRow(label, valueEl) {
   const row = document.createElement("div");
   row.className = "field-row";
@@ -545,6 +565,34 @@ function renderCard(college, editable) {
     const trimmed = v.trim();
     college.rosterSize = trimmed === "" ? null : (/^\d+$/.test(trimmed) ? parseInt(trimmed, 10) : trimmed);
   }, "none", editable);
+  appendFieldIfPresent(card, "NCAA Division", college.ncaaDivision, "add division", v => college.ncaaDivision = v, "none", editable);
+  appendFieldIfPresent(card, "Conference", college.conference, "add conference", v => college.conference = v, "none", editable);
+  appendFieldIfPresent(card, "Open House", college.openHouseDates, "add open house date(s)", v => college.openHouseDates = v, "none", editable);
+
+  if (editable || college.demonstratedInterest === true || college.demonstratedInterest === false) {
+    const row = document.createElement("div");
+    row.className = "field-row";
+    const lab = document.createElement("span");
+    lab.className = "field-label";
+    lab.textContent = "Demonstrated Interest:";
+    row.appendChild(lab);
+    const cur = college.demonstratedInterest;
+    const dBadge = document.createElement("span");
+    dBadge.className = "interest-badge " + interestBadgeClass(cur) + (editable ? "" : " locked");
+    dBadge.textContent = interestBadgeLabel(cur);
+    if (editable) {
+      dBadge.onclick = () => {
+        const cycle = [true, false, null];
+        const idx = cycle.indexOf(college.demonstratedInterest);
+        college.demonstratedInterest = cycle[(idx + 1) % cycle.length];
+        college.demonstratedInterestConfidence = "user-edited";
+        renderGrid();
+        queueSave(`Update demonstrated interest: ${college.name}`);
+      };
+    }
+    row.appendChild(dBadge);
+    card.appendChild(row);
+  }
 
   if (editable || college.notes) {
     const notesRow = document.createElement("div");
