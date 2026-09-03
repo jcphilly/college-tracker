@@ -37,7 +37,7 @@
       "rosterSize": 43,
       "ncaaDivision": "NCAA Division III",
       "conference": "NEWMAC",
-      "demonstratedInterest": null,
+      "demonstratedInterest": true,
       "openHouseDates": "No confirmed fall 2026 date — rolling \"Visit & Engage\" preview days/info sessions, not a single dated event",
       "name": "Babson College",
       "status": "in_progress",
