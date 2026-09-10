@@ -963,7 +963,13 @@
       "conference": "Atlantic 10",
       "demonstratedInterest": false,
       "openHouseDates": "\"Preview Richmond\" day-long open houses typically held Summer, Fall, and Spring; no specific fall 2026 date found",
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "name": "University of Richmond",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/university-richmond/",
