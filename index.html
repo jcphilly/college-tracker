@@ -179,8 +179,9 @@
   .notes-row { margin-top: 8px; font-size: var(--fs-sm); color: var(--text-dim); }
   .notes-display { white-space: pre-wrap; }
   .notes-textarea {
-    width: 100%; min-height: 50px; background: var(--bg); color: var(--text); border: 1px solid var(--card-border);
-    border-radius: 6px; padding: 6px 8px; font-family: inherit; font-size: var(--fs-sm); resize: vertical;
+    width: 100%; min-height: 34px; background: var(--bg); color: var(--text); border: 1px solid var(--card-border);
+    border-radius: 6px; padding: 6px 8px; font-family: inherit; font-size: var(--fs-sm); resize: none;
+    overflow: hidden; box-sizing: border-box; display: block;
   }
   .notes-textarea:focus { outline: none; border-color: var(--accent); }
 
@@ -622,11 +623,15 @@ function renderCard(college, editable) {
       ta.className = "notes-textarea";
       ta.placeholder = "add note";
       ta.value = college.notes || "";
+      ta.rows = 1;
+      const autoGrow = () => { ta.style.height = "auto"; ta.style.height = ta.scrollHeight + "px"; };
+      ta.addEventListener("input", autoGrow);
       ta.addEventListener("blur", () => {
         college.notes = ta.value.trim();
         queueSave("Update note");
       });
       notesRow.appendChild(ta);
+      requestAnimationFrame(autoGrow);
     } else {
       const p = document.createElement("div");
       p.className = "notes-display";
