@@ -1016,7 +1016,13 @@
       "conference": "Big East",
       "demonstratedInterest": false,
       "openHouseDates": "Fall Preview Days: Sat-Sun, Sept 12-13, 2026",
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "name": "Villanova University",
       "status": "in_progress",
       "portal": "https://www.commonapp.org/explore/villanova-university/",
