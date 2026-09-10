@@ -850,7 +850,7 @@
           "name": "Taylor Black",
           "role": "Assistant Coach",
           "email": null,
-          "phone": null,
+          "phone": "",
           "twitter": null
         }
       ],
