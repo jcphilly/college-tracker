@@ -381,7 +381,13 @@
       "conference": "Coastal Athletic Association",
       "demonstratedInterest": true,
       "openHouseDates": "Fall Open House: Sun, Oct 11, 2026",
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "name": "Hofstra University",
       "status": "submitted",
       "portal": "https://admission.hofstra.edu/apply/status#collapse-meet1",
