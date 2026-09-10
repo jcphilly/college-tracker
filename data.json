@@ -45,7 +45,14 @@
       "portal": "https://www.commonapp.org/explore/babson-college/",
       "deadline": "RD — 1/3",
       "demonstratedInterestConfidence": "user-edited",
-      "openHouseDatesConfidence": "low"
+      "openHouseDatesConfidence": "low",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "No confirmed fall 2026 date — rolling \"Visit & Engage\" preview days/info sessions, not a single dated event",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -92,7 +99,14 @@
       "portal": "https://www.commonapp.org/explore/bucknell-university/",
       "deadline": "RD — 1/10",
       "demonstratedInterestConfidence": "high",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Fall Open Houses: Sept 12, Oct 3, and Oct 24, 2026",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -132,7 +146,14 @@
       "portal": "https://www.commonapp.org/explore/case-western-reserve-university/",
       "deadline": "RD — 1/15",
       "demonstratedInterestConfidence": "user-edited",
-      "openHouseDatesConfidence": "low"
+      "openHouseDatesConfidence": "low",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Fall Open House held annually (historically a Friday + a Monday session); exact 2026 date not yet posted",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -186,7 +207,14 @@
       "portal": "https://www.commonapp.org/explore/college-holy-cross/",
       "deadline": "RD — 1/15",
       "demonstratedInterestConfidence": "low",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Open House Sun, Nov 8, 2026, 9am-2:30pm (part of the Nov 7-9 \"November Perspectives Program\"; a Sept 26-28 \"Perspectives\" program also runs)",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -233,7 +261,14 @@
       "portal": "https://www.commonapp.org/explore/dickinson-college/",
       "deadline": "RD — 1/15",
       "demonstratedInterestConfidence": "medium",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Fall Open Houses: Sat Sept 19, Sat Oct 3, Mon Oct 12, and Sun Nov 1, 2026",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -273,7 +308,14 @@
       "portal": "https://ugadmission.fairfield.edu/apply/status",
       "deadline": "RD — 1/15",
       "demonstratedInterestConfidence": "high",
-      "openHouseDatesConfidence": "low"
+      "openHouseDatesConfidence": "low",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "No confirmed fall 2026 date on main campus — rolling Campus Information Session & Tour; Bellarmine-campus \"Fall in Love with Bellarmine\" open house last dated Nov 15, 2025, not yet reposted for 2026",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -333,7 +375,14 @@
       "portal": "https://admissions.fsu.edu/undergradapp/first-year",
       "deadline": "EA — 12/1",
       "demonstratedInterestConfidence": "high",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "No single open house — daily self-guided tours + advance-registration guided tours (Visitor Center, Mon-Fri 8am-5pm) and virtual info sessions/tours",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -393,7 +442,14 @@
       "portal": "https://admission.hofstra.edu/apply/status#collapse-meet1",
       "deadline": "RD — Rolling after 2/1",
       "demonstratedInterestConfidence": "low",
-      "openHouseDatesConfidence": "low-medium"
+      "openHouseDatesConfidence": "low-medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Fall Open House: Sun, Oct 11, 2026",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -447,7 +503,14 @@
       "portal": "https://www.commonapp.org/explore/lafayette-college/",
       "deadline": "RD — 1/5",
       "demonstratedInterestConfidence": "medium",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Oct 17, Nov 5, and Nov 6, 2026 (general + subject-specific: Engineering, Arts, Natural Sciences)",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -473,7 +536,14 @@
       "portal": "https://www.commonapp.org/explore/princeton-university/",
       "deadline": "SCEA — 11/1",
       "demonstratedInterestConfidence": "high",
-      "openHouseDatesConfidence": "high (cadence)"
+      "openHouseDatesConfidence": "high (cadence)",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "No single open house — weekday info sessions + student-led tours, weekend tours by registration, plus virtual info sessions; no specific fall 2026 dates found",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -513,7 +583,14 @@
       "portal": "https://www.commonapp.org/explore/sacred-heart-university/",
       "deadline": "RD — Rolling after 2/1",
       "demonstratedInterestConfidence": "medium",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Oct 18, 2026 and Nov 14, 2026; daily tours also available",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -560,7 +637,14 @@
       "portal": "https://admission.sju.edu/portal/status",
       "deadline": "RD — 2/1",
       "demonstratedInterestConfidence": "low",
-      "openHouseDatesConfidence": "low"
+      "openHouseDatesConfidence": "low",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Annual Fall Open House confirmed; specific 2026 date not yet surfaced — check schedule page directly",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -607,7 +691,14 @@
       "portal": "https://apply.commonapp.org/login?ma=246",
       "deadline": "RD — 1/8",
       "demonstratedInterestConfidence": "medium-high",
-      "openHouseDatesConfidence": "low"
+      "openHouseDatesConfidence": "low",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Fall open house confirmed to occur; specific 2026 date not surfaced (Summer Open House was July 25, 2026; weekly Tues 7pm virtual info sessions run year-round)",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -647,7 +738,14 @@
       "portal": "https://undergradadmissions.stevens.edu/apply/status?v=app",
       "deadline": "RD — 1/5",
       "demonstratedInterestConfidence": "low",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Prospective Student Visit Days: Oct 5, 2026 and Nov 9, 2026",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -701,7 +799,14 @@
       "portal": "https://www.commonapp.org/explore/trinity-college/",
       "deadline": "RD — 1/15",
       "demonstratedInterestConfidence": "medium",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Oct 10, 2026 and Oct 15, 2026",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -741,7 +846,14 @@
       "portal": "https://www.commonapp.org/explore/tulane-university/",
       "deadline": "RD — 1/15",
       "demonstratedInterestConfidence": "high",
-      "openHouseDatesConfidence": "medium (cadence) / low (date)"
+      "openHouseDatesConfidence": "medium (cadence) / low (date)",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "No single open house — daily campus tours + fall/spring \"Campus Preview Days\"; fall 2026 specific dates not yet located (site notes dates post by Aug 1)",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -774,7 +886,14 @@
       "portal": "https://apply.commonapp.org/Login?ma=273",
       "deadline": "RD — 1/15",
       "demonstratedInterestConfidence": "medium",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Fall Open House: Mon, Oct 12, 2026, 8:15am-2:30pm (2-day GTKU overnight option available)",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -821,7 +940,14 @@
       "portal": "https://apply.udel.edu/",
       "deadline": "EA — 11/1",
       "demonstratedInterestConfidence": "medium",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Blue & Golden Open House: Sat, Nov 7, 2026, 8:30am-2pm, Memorial Hall Gymnasium; registration opens mid/late Aug",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -868,7 +994,14 @@
       "portal": "https://www.commonapp.org/explore/university-florida/",
       "deadline": "EA — 11/1",
       "demonstratedInterestConfidence": "high",
-      "openHouseDatesConfidence": "medium (cadence)"
+      "openHouseDatesConfidence": "medium (cadence)",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "No single open house — daily Mon-Fri campus tours + brief info session, plus virtual \"Ask a Gator\" sessions; no fall 2026 open-house date found",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -922,7 +1055,14 @@
       "portal": "https://pitt.mycollegeapplication.org/Login.aspx",
       "deadline": "12/1",
       "demonstratedInterestConfidence": "medium",
-      "openHouseDatesConfidence": "low"
+      "openHouseDatesConfidence": "low",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "\"Blue & Gold Days\" open-house program exists (for students who haven't applied yet); no specific 2026 date surfaced — register via site for current dates",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -975,7 +1115,14 @@
       "portal": "https://www.commonapp.org/explore/university-richmond/",
       "deadline": "RD — 1/1",
       "demonstratedInterestConfidence": "high",
-      "openHouseDatesConfidence": "low"
+      "openHouseDatesConfidence": "low",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "\"Preview Richmond\" day-long open houses typically held Summer, Fall, and Spring; no specific fall 2026 date found",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -1028,7 +1175,14 @@
       "portal": "https://www.commonapp.org/explore/villanova-university/",
       "deadline": "RD — 1/15",
       "demonstratedInterestConfidence": "high",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Fall Preview Days: Sat-Sun, Sept 12-13, 2026",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -1068,7 +1222,14 @@
       "portal": "https://www.commonapp.org/explore/worcester-polytechnic-institute/",
       "deadline": "RD — 2/1",
       "demonstratedInterestConfidence": "medium",
-      "openHouseDatesConfidence": "low"
+      "openHouseDatesConfidence": "low",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "Multiple Fall Open House sessions each year (historically Oct/Nov); 2026 dates not yet confirmed",
+          "url": ""
+        }
+      ]
     },
     {
       "coaches": [
@@ -1122,7 +1283,14 @@
       "portal": "https://www.commonapp.org/explore/yale-university/",
       "deadline": "RD — 1/2",
       "demonstratedInterestConfidence": "high",
-      "openHouseDatesConfidence": "medium"
+      "openHouseDatesConfidence": "medium",
+      "openHouseUpdates": [
+        {
+          "name": "Open House",
+          "date": "No general open house for prospective applicants — daily weekday info sessions (~30 min, 10:30am, extra 1pm on peak days) + tours by reservation; \"Bulldog Days\" (April) is admitted-students-only",
+          "url": ""
+        }
+      ]
     }
   ],
   "baseballNotes": "Research notes (Aug 2026): most deadlines below are current-page dates but only 7 of 25 schools' pages explicitly confirmed \"2026-27\"/\"Fall 2027\" — double check the ones flagged \"unconfirmed\" before treating as final. Coach emails for Bucknell, FSU, Sacred Heart, UD, and Richmond came from search-index results, not a direct page fetch — verify before emailing. Tulane's coach has no email/phone listed publicly. Fairfield has a new head coach (Brian Fay, replacing retired Bill Currier). FSU and UF both added a new binding Early Decision option this cycle (Oct 15) — verify details directly with admissions. Princeton's coach (Ryan Forrest) was just named in July 2026, so only the program office contact is available yet. Pitt added Aug 2026: coach names come from the Sept 2025 staff-announcement release (staff page is JS-rendered and lists no emails/phones), so all five contacts need verifying before outreach. Saint Joseph's added Aug 2026: coach emails/phones were read off the live staff page so they are verified, but Lee Saverio has no contact listed and the hitting/pitching designations come from press releases rather than the staff page. Team X/Twitter handles filled in Aug 2026 from search-index results that returned the live x.com profile URL; they were not opened and confirmed one by one, so spot-check before following or DMing. Two caveats: Case Western has TWO accounts (@cwru_baseball and @CWRUbaseball) and it is unclear which is current; Trinity was disambiguated as @TrinBaseball (\"Bantam Baseball\", the Hartford mascot) because @TrinityBaseball appears to belong to Trinity University in Texas. Division/conference/demonstratedInterest research (Sept 2026): NCAA division and conference are cross-confirmed via multiple search sources for all 24 schools. Roster sizes are best-effort from search snippets (news previews, \"returners + newcomers\" totals, or third-party aggregators) since official roster pages were not directly fetchable this session — verified/solid counts: FSU (38, from official roster PDF position breakdown), Hofstra (35), Delaware (38), Florida (41), Pitt (40), Villanova (33); softer estimates: Babson (~43), Skidmore (~34, from a season-preview article), Richmond (37, third-party aggregator, not the official page); left null (no reliable count found) for Bucknell, Case Western, Holy Cross, Dickinson, Fairfield, Lafayette, Princeton, Sacred Heart, Saint Joseph's, Stevens, Trinity, Tulane, Union, WPI, Yale — spot-check official roster pages before relying on these. demonstratedInterest (true/false, from each school's Common Data Set section C7 'Level of applicant's interest' where available) has a demonstratedInterestConfidence field per school ('high' = directly corroborated CDS wording or an explicit admissions-office statement, e.g. FSU/Princeton/Richmond/Villanova/Yale all explicitly say interest is NOT considered, contrary to typical assumptions; 'low' = inferred from general admissions commentary rather than a confirmed CDS line — Holy Cross, Hofstra, Saint Joseph's, Stevens fall here and should be verified directly against each school's CDS PDF before treating as certain). Open house research (Sept 2026): openHouseDates/openHouseDatesConfidence added per school, sourced from WebSearch snippets of each school's admissions visit page (direct page fetches were blocked by this environment's network egress policy, so treat 'low'/'medium' confidence entries as needing a manual confirm against the source page before relying on them for scheduling). Several schools genuinely run no single dated open house and instead offer rolling daily tours/info sessions — Babson, Fairfield (main campus), FSU, Princeton, Tulane, Florida, and Yale all fall into this category, which is a real finding rather than a research gap. Best-confidence specific dates: Bucknell (Sept 12/Oct 3/Oct 24), Holy Cross (Nov 8), Dickinson (Sept 19/Oct 3/Oct 12/Nov 1), Lafayette (Oct 17/Nov 5-6), Sacred Heart (Oct 18/Nov 14), Stevens (Oct 5/Nov 9), Trinity (Oct 10/15), Union (Oct 12), Delaware (Nov 7), Villanova (Sept 12-13). Needs follow-up closer to the season (school hasn't posted a 2026 date yet): Case Western, Hofstra, Saint Joseph's, Skidmore, Pitt, Richmond, WPI."

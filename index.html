@@ -320,7 +320,7 @@ async function loadData() {
     const json = await res.json();
     const parsed = JSON.parse(b64DecodeUnicode(json.content));
     state = {
-      colleges: (parsed.colleges || []).map(c => ({ coaches: [], notes: "", estimatedCost: "", teamTwitter: "", rosterSize: null, ncaaDivision: "", conference: "", demonstratedInterest: null, openHouseDates: "", campUpdates: [], ...c })),
+      colleges: (parsed.colleges || []).map(c => ({ coaches: [], notes: "", estimatedCost: "", teamTwitter: "", rosterSize: null, ncaaDivision: "", conference: "", demonstratedInterest: null, campUpdates: [], openHouseUpdates: [], ...c })),
       baseballNotes: parsed.baseballNotes || ""
     };
     setSyncStatus("ok", "synced");
@@ -526,28 +526,28 @@ function renderCoachRow(college, coach, idx, editable) {
   return row;
 }
 
-function renderCampRow(college, camp, idx, editable) {
+function renderUpdateRow(list, item, idx, editable, namePlaceholder, removeMessage) {
   const row = document.createElement("div");
   row.className = "coach-row";
 
-  const nameEl = makeEditable(camp.name, "Camp name", v => camp.name = v, "none");
+  const nameEl = makeEditable(item.name, namePlaceholder, v => item.name = v, "none");
   nameEl.classList.add("coach-name");
   row.appendChild(nameEl);
 
-  const dateEl = makeEditable(camp.date, "date", v => camp.date = v, "none");
+  const dateEl = makeEditable(item.date, "date", v => item.date = v, "none");
   dateEl.classList.add("coach-role");
   row.appendChild(dateEl);
 
-  if (camp.url || editable) row.appendChild(makeEditable(camp.url, "url", v => camp.url = v, "url"));
+  if (item.url || editable) row.appendChild(makeEditable(item.url, "url", v => item.url = v, "url"));
 
   if (editable) {
     const rm = document.createElement("button");
     rm.className = "remove-coach-btn";
     rm.textContent = "remove";
     rm.onclick = () => {
-      college.campUpdates.splice(idx, 1);
+      list.splice(idx, 1);
       renderGrid();
-      queueSave(`Remove camp update from ${college.name}`);
+      queueSave(removeMessage);
     };
     row.appendChild(rm);
   }
@@ -588,7 +588,6 @@ function renderCard(college, editable) {
   }, "none", editable);
   appendFieldIfPresent(card, "NCAA Division", college.ncaaDivision, "add division", v => college.ncaaDivision = v, "none", editable);
   appendFieldIfPresent(card, "Conference", college.conference, "add conference", v => college.conference = v, "none", editable);
-  appendFieldIfPresent(card, "Open House", college.openHouseDates, "add open house date(s)", v => college.openHouseDates = v, "none", editable);
 
   if (editable || college.demonstratedInterest === true || college.demonstratedInterest === false) {
     const row = document.createElement("div");
@@ -689,7 +688,7 @@ function renderCard(college, editable) {
   campBlock.appendChild(campTitle);
 
   (college.campUpdates || []).forEach((camp, idx) => {
-    campBlock.appendChild(renderCampRow(college, camp, idx, editable));
+    campBlock.appendChild(renderUpdateRow(college.campUpdates, camp, idx, editable, "Camp name", `Remove camp update from ${college.name}`));
   });
 
   if (editable) {
@@ -707,6 +706,34 @@ function renderCard(college, editable) {
 
   if (editable || (college.campUpdates && college.campUpdates.length)) {
     card.appendChild(campBlock);
+  }
+
+  const openHouseBlock = document.createElement("div");
+  openHouseBlock.className = "staff-block";
+  const openHouseTitle = document.createElement("div");
+  openHouseTitle.className = "staff-title";
+  openHouseTitle.textContent = "Open House Updates";
+  openHouseBlock.appendChild(openHouseTitle);
+
+  (college.openHouseUpdates || []).forEach((oh, idx) => {
+    openHouseBlock.appendChild(renderUpdateRow(college.openHouseUpdates, oh, idx, editable, "Open house name", `Remove open house update from ${college.name}`));
+  });
+
+  if (editable) {
+    const addOpenHouseBtn = document.createElement("button");
+    addOpenHouseBtn.className = "add-row-btn";
+    addOpenHouseBtn.textContent = "+ add open house update";
+    addOpenHouseBtn.onclick = () => {
+      college.openHouseUpdates = college.openHouseUpdates || [];
+      college.openHouseUpdates.push({ name: "", date: "", url: "" });
+      renderGrid();
+      queueSave(`Add open house update to ${college.name}`);
+    };
+    openHouseBlock.appendChild(addOpenHouseBtn);
+  }
+
+  if (editable || (college.openHouseUpdates && college.openHouseUpdates.length)) {
+    card.appendChild(openHouseBlock);
   }
 
   return card;
