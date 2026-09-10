@@ -177,6 +177,12 @@
   .add-row-btn:disabled { opacity: 0.4; cursor: default; }
 
   .notes-row { margin-top: 8px; font-size: var(--fs-sm); color: var(--text-dim); }
+  .notes-display { white-space: pre-wrap; }
+  .notes-textarea {
+    width: 100%; min-height: 50px; background: var(--bg); color: var(--text); border: 1px solid var(--card-border);
+    border-radius: 6px; padding: 6px 8px; font-family: inherit; font-size: var(--fs-sm); resize: vertical;
+  }
+  .notes-textarea:focus { outline: none; border-color: var(--accent); }
 
   .section-title { font-size: var(--fs-lg); margin: 24px 0 12px; }
   .baseball-notes-card {
@@ -625,7 +631,22 @@ function renderCard(college, editable) {
   if (editable || college.notes) {
     const notesRow = document.createElement("div");
     notesRow.className = "notes-row";
-    notesRow.appendChild(makeEditable(college.notes, "add note", v => college.notes = v, "none"));
+    if (editable) {
+      const ta = document.createElement("textarea");
+      ta.className = "notes-textarea";
+      ta.placeholder = "add note";
+      ta.value = college.notes || "";
+      ta.addEventListener("blur", () => {
+        college.notes = ta.value.trim();
+        queueSave("Update note");
+      });
+      notesRow.appendChild(ta);
+    } else {
+      const p = document.createElement("div");
+      p.className = "notes-display";
+      p.textContent = college.notes;
+      notesRow.appendChild(p);
+    }
     card.appendChild(notesRow);
   }
 
