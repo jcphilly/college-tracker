@@ -184,15 +184,6 @@
   }
   .notes-textarea:focus { outline: none; border-color: var(--accent); }
 
-  .section-title { font-size: var(--fs-lg); margin: 24px 0 12px; }
-  .baseball-notes-card {
-    background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 16px 20px;
-  }
-  .baseball-notes-card textarea {
-    width: 100%; min-height: 140px; background: var(--bg); color: var(--text); border: 1px solid var(--card-border);
-    border-radius: 8px; padding: 12px; font-family: inherit; font-size: var(--fs-sm); resize: vertical;
-  }
-
   footer { margin-top: 32px; color: var(--text-dim); font-size: var(--fs-xs); text-align: center; }
 
   @media (max-width: 480px) {
@@ -232,11 +223,6 @@
   </div>
 
   <div class="college-grid" id="collegeGrid"></div>
-
-  <div class="section-title">Baseball Recruiting Notes</div>
-  <div class="baseball-notes-card">
-    <textarea id="baseballNotes" placeholder="e.g. Attended WPI prospect camp 7/12, sent updated velo video to Bucknell coach 7/20..."></textarea>
-  </div>
 
   <footer>
     Data lives in <code>data.json</code> in the GitHub repo, so every device sees the same thing. Viewing works for anyone with the link; editing requires the shared edit password (click "Connect to edit").
@@ -739,13 +725,6 @@ document.getElementById("searchInput").addEventListener("input", e => {
   renderGrid();
 });
 
-const bbNotesEl = document.getElementById("baseballNotes");
-bbNotesEl.addEventListener("blur", () => {
-  if (!isEditable()) return;
-  state.baseballNotes = bbNotesEl.value;
-  queueSave("Update baseball notes");
-});
-
 document.getElementById("authBtn").onclick = () => {
   if (isEditable()) {
     if (confirm("Disconnect this device? You'll need to re-enter the password to edit again.")) {
@@ -764,8 +743,6 @@ document.getElementById("authBtn").onclick = () => {
 };
 
 function renderAll() {
-  bbNotesEl.value = state.baseballNotes || "";
-  bbNotesEl.readOnly = !isEditable();
   renderProgress();
   renderFilters();
   renderGrid();
