@@ -614,6 +614,34 @@ function renderCard(college, editable) {
     card.appendChild(row);
   }
 
+  const openHouseBlock = document.createElement("div");
+  openHouseBlock.className = "staff-block";
+  const openHouseTitle = document.createElement("div");
+  openHouseTitle.className = "staff-title";
+  openHouseTitle.textContent = "Open House Updates";
+  openHouseBlock.appendChild(openHouseTitle);
+
+  (college.openHouseUpdates || []).forEach((oh, idx) => {
+    openHouseBlock.appendChild(renderUpdateRow(college.openHouseUpdates, oh, idx, editable, "Open house name", `Remove open house update from ${college.name}`));
+  });
+
+  if (editable) {
+    const addOpenHouseBtn = document.createElement("button");
+    addOpenHouseBtn.className = "add-row-btn";
+    addOpenHouseBtn.textContent = "+ add open house update";
+    addOpenHouseBtn.onclick = () => {
+      college.openHouseUpdates = college.openHouseUpdates || [];
+      college.openHouseUpdates.push({ name: "", date: "", url: "" });
+      renderGrid();
+      queueSave(`Add open house update to ${college.name}`);
+    };
+    openHouseBlock.appendChild(addOpenHouseBtn);
+  }
+
+  if (editable || (college.openHouseUpdates && college.openHouseUpdates.length)) {
+    card.appendChild(openHouseBlock);
+  }
+
   if (editable || college.notes) {
     const notesRow = document.createElement("div");
     notesRow.className = "notes-row";
@@ -706,34 +734,6 @@ function renderCard(college, editable) {
 
   if (editable || (college.campUpdates && college.campUpdates.length)) {
     card.appendChild(campBlock);
-  }
-
-  const openHouseBlock = document.createElement("div");
-  openHouseBlock.className = "staff-block";
-  const openHouseTitle = document.createElement("div");
-  openHouseTitle.className = "staff-title";
-  openHouseTitle.textContent = "Open House Updates";
-  openHouseBlock.appendChild(openHouseTitle);
-
-  (college.openHouseUpdates || []).forEach((oh, idx) => {
-    openHouseBlock.appendChild(renderUpdateRow(college.openHouseUpdates, oh, idx, editable, "Open house name", `Remove open house update from ${college.name}`));
-  });
-
-  if (editable) {
-    const addOpenHouseBtn = document.createElement("button");
-    addOpenHouseBtn.className = "add-row-btn";
-    addOpenHouseBtn.textContent = "+ add open house update";
-    addOpenHouseBtn.onclick = () => {
-      college.openHouseUpdates = college.openHouseUpdates || [];
-      college.openHouseUpdates.push({ name: "", date: "", url: "" });
-      renderGrid();
-      queueSave(`Add open house update to ${college.name}`);
-    };
-    openHouseBlock.appendChild(addOpenHouseBtn);
-  }
-
-  if (editable || (college.openHouseUpdates && college.openHouseUpdates.length)) {
-    card.appendChild(openHouseBlock);
   }
 
   return card;
