@@ -986,7 +986,7 @@
       "rosterSize": 34,
       "ncaaDivision": "NCAA Division I",
       "conference": "Southeastern Conference",
-      "demonstratedInterest": false,
+      "demonstratedInterest": null,
       "campUpdates": [],
       "openHouseUpdates": [
         {
@@ -1000,7 +1000,7 @@
       "status": "submitted",
       "portal": "https://undergrad.admissions.ufl.edu/account/login?r=https%3a%2f%2fundergrad.admissions.ufl.edu%2fportal",
       "deadline": "EA — 11/1",
-      "demonstratedInterestConfidence": "high",
+      "demonstratedInterestConfidence": "user-edited",
       "openHouseDatesConfidence": "medium (cadence)"
     },
     {
