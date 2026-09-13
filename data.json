@@ -986,7 +986,7 @@
       "rosterSize": 34,
       "ncaaDivision": "NCAA Division I",
       "conference": "Southeastern Conference",
-      "demonstratedInterest": null,
+      "demonstratedInterest": true,
       "campUpdates": [],
       "openHouseUpdates": [
         {
