@@ -600,7 +600,13 @@
       "ncaaDivision": "NCAA Division I",
       "conference": "Metro Atlantic Athletic Conference",
       "demonstratedInterest": true,
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "openHouseUpdates": [
         {
           "name": "Open House",
