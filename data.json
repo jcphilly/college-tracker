@@ -1002,7 +1002,13 @@
       "ncaaDivision": "NCAA Division I",
       "conference": "Conference USA",
       "demonstratedInterest": true,
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "openHouseUpdates": [
         {
           "name": "Open House",
