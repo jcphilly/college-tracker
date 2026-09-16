@@ -38,7 +38,13 @@
       "ncaaDivision": "NCAA Division III",
       "conference": "NEWMAC",
       "demonstratedInterest": true,
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "openHouseUpdates": [
         {
           "name": "Open House",
