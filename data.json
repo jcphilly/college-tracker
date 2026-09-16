@@ -891,7 +891,13 @@
       "ncaaDivision": "NCAA Division I",
       "conference": "American Athletic Conference",
       "demonstratedInterest": true,
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "openHouseUpdates": [
         {
           "name": "Open House",
