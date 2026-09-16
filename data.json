@@ -1129,7 +1129,13 @@
       "ncaaDivision": "NCAA Division I",
       "conference": "Atlantic Coast Conference",
       "demonstratedInterest": true,
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "openHouseUpdates": [
         {
           "name": "Open House",
