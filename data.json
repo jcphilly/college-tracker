@@ -547,7 +547,13 @@
       "ncaaDivision": "NCAA Division I",
       "conference": "Ivy League",
       "demonstratedInterest": false,
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "openHouseUpdates": [
         {
           "name": "Open House",
