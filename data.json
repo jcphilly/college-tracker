@@ -98,7 +98,13 @@
       "ncaaDivision": "NCAA Division I",
       "conference": "Patriot League",
       "demonstratedInterest": true,
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "openHouseUpdates": [
         {
           "name": "Open House",
