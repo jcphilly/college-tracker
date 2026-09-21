@@ -838,7 +838,13 @@
       "ncaaDivision": "NCAA Division III",
       "conference": "NESCAC",
       "demonstratedInterest": true,
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "openHouseUpdates": [
         {
           "name": "Open House",
