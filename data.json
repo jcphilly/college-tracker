@@ -329,9 +329,15 @@
       "notes": "",
       "estimatedCost": "50k - 45k, $0 application fee",
       "teamTwitter": "@ERAUBaseball",
+      "rosterSize": null,
+      "ncaaDivision": "",
+      "conference": "",
+      "demonstratedInterest": null,
+      "campUpdates": [],
+      "openHouseUpdates": [],
       "name": "Embry-Riddle Aeronautical University (Daytona Beach)",
       "deadline": "Rolling",
-      "status": "in_progress",
+      "status": "submitted",
       "portal": "https://erau.edu/start-your-application"
     },
     {
