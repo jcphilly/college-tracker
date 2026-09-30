@@ -333,7 +333,13 @@
       "ncaaDivision": "D2",
       "conference": "Sunshine State Conference",
       "demonstratedInterest": true,
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "openHouseUpdates": [],
       "name": "Embry-Riddle Aeronautical University (Daytona Beach)",
       "deadline": "Rolling",
