@@ -151,7 +151,13 @@
       "ncaaDivision": "NCAA Division III",
       "conference": "University Athletic Association",
       "demonstratedInterest": false,
-      "campUpdates": [],
+      "campUpdates": [
+        {
+          "name": "",
+          "date": "",
+          "url": ""
+        }
+      ],
       "openHouseUpdates": [
         {
           "name": "Open House",
