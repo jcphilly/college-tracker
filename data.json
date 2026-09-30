@@ -332,13 +332,14 @@
       "rosterSize": null,
       "ncaaDivision": "D2",
       "conference": "Sunshine State Conference",
-      "demonstratedInterest": null,
+      "demonstratedInterest": true,
       "campUpdates": [],
       "openHouseUpdates": [],
       "name": "Embry-Riddle Aeronautical University (Daytona Beach)",
       "deadline": "Rolling",
       "status": "submitted",
-      "portal": "https://erau.edu/start-your-application"
+      "portal": "https://erau.edu/start-your-application",
+      "demonstratedInterestConfidence": "user-edited"
     },
     {
       "coaches": [
