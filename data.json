@@ -38,13 +38,7 @@
       "ncaaDivision": "NCAA Division III",
       "conference": "NEWMAC",
       "demonstratedInterest": true,
-      "campUpdates": [
-        {
-          "name": "i95Metro",
-          "date": "10/11",
-          "url": ""
-        }
-      ],
+      "campUpdates": [],
       "openHouseUpdates": [
         {
           "name": "Open House",
