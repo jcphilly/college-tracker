@@ -618,13 +618,7 @@
       "ncaaDivision": "NCAA Division I",
       "conference": "Ivy League",
       "demonstratedInterest": false,
-      "campUpdates": [
-        {
-          "name": "i95Metro",
-          "date": "10/11",
-          "url": ""
-        }
-      ],
+      "campUpdates": [],
       "openHouseUpdates": [
         {
           "name": "Open House",
@@ -671,13 +665,7 @@
       "ncaaDivision": "NCAA Division I",
       "conference": "Metro Atlantic Athletic Conference",
       "demonstratedInterest": true,
-      "campUpdates": [
-        {
-          "name": "i95Metro",
-          "date": "10/11",
-          "url": ""
-        }
-      ],
+      "campUpdates": [],
       "openHouseUpdates": [
         {
           "name": "Open House",
