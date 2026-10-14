@@ -1297,13 +1297,7 @@
       "ncaaDivision": "NCAA Division I",
       "conference": "Ivy League",
       "demonstratedInterest": false,
-      "campUpdates": [
-        {
-          "name": "Showball",
-          "date": "10/4",
-          "url": ""
-        }
-      ],
+      "campUpdates": [],
       "openHouseUpdates": [
         {
           "name": "Open House",
