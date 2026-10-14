@@ -913,13 +913,7 @@
       "ncaaDivision": "NCAA Division I",
       "conference": "American Athletic Conference",
       "demonstratedInterest": true,
-      "campUpdates": [
-        {
-          "name": "Showball",
-          "date": "10/4",
-          "url": ""
-        }
-      ],
+      "campUpdates": [],
       "openHouseUpdates": [
         {
           "name": "Open House",
