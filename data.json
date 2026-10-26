@@ -87,13 +87,7 @@
       "conference": "Patriot League",
       "demonstratedInterest": true,
       "campUpdates": [],
-      "openHouseUpdates": [
-        {
-          "name": "Open House",
-          "date": "Fall Open Houses: Sept 12, Oct 3, and Oct 24, 2026",
-          "url": ""
-        }
-      ],
+      "openHouseUpdates": [],
       "openHouseDates": "Fall Open Houses: Sept 12, Oct 3, and Oct 24, 2026",
       "name": "Bucknell University",
       "status": "in_progress",
