@@ -235,7 +235,7 @@
           "twitter": null
         }
       ],
-      "notes": "",
+      "notes": "https://admissions.dickinson.edu/portal/Parent?tab=home",
       "estimatedCost": "53k - 45k, $0 application fee",
       "teamTwitter": "@DSonBaseball",
       "rosterSize": 40,
@@ -252,8 +252,8 @@
       ],
       "openHouseDates": "Fall Open Houses: Sat Sept 19, Sat Oct 3, Mon Oct 12, and Sun Nov 1, 2026",
       "name": "Dickinson College",
-      "status": "submitted",
-      "portal": "https://admissions.dickinson.edu/account/login?id=063364c0-46e9-44ef-8157-729be1f2b4b9&utm_campaign=FY%2FTRF&utm_content=App+Ack&utm_medium=email&utm_source=Admissions&utm_term=F25",
+      "status": "in_progress",
+      "portal": "https://www.commonapp.org/explore/dickinson-college/",
       "deadline": "RD — 1/15",
       "demonstratedInterestConfidence": "medium",
       "openHouseDatesConfidence": "medium"
